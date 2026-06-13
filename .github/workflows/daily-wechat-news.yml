@@ -1,6 +1,10 @@
 name: Daily WeChat News
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/daily-wechat-news.yml"
   schedule:
     # 08:00 Asia/Shanghai every day.
     - cron: "0 0 * * *"
