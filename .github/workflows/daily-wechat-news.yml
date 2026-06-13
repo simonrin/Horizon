@@ -1,10 +1,11 @@
-name: Daily WeChat News
+name: Daily Email News
 
 on:
   push:
     branches: [main]
     paths:
       - ".github/workflows/daily-wechat-news.yml"
+      - "scripts/send_email_summary.py"
   schedule:
     # 08:00 Asia/Shanghai every day.
     - cron: "0 0 * * *"
@@ -14,7 +15,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: daily-wechat-news
+  group: daily-email-news
   cancel-in-progress: false
 
 jobs:
@@ -22,16 +23,17 @@ jobs:
     runs-on: ubuntu-latest
     env:
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-      WECHAT_APP_ID: ${{ secrets.WECHAT_APP_ID }}
-      WECHAT_APP_SECRET: ${{ secrets.WECHAT_APP_SECRET }}
-      WECHAT_THUMB_MEDIA_ID: ${{ secrets.WECHAT_THUMB_MEDIA_ID }}
-      WECHAT_AUTHOR: ${{ vars.WECHAT_AUTHOR || 'Horizon' }}
-      WECHAT_CONTENT_SOURCE_URL: ${{ vars.WECHAT_CONTENT_SOURCE_URL || '' }}
-      WECHAT_DIGEST: ${{ vars.WECHAT_DIGEST || '' }}
-      WECHAT_LANG: zh
-      WECHAT_PUBLISH_MODE: ${{ vars.WECHAT_PUBLISH_MODE || 'draft' }}
       RSSHUB_BASE: ${{ vars.RSSHUB_BASE || 'https://rsshub.app' }}
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+      MAIL_TO: u8044657@anu.edu.au
+      SMTP_HOST: ${{ secrets.SMTP_HOST }}
+      SMTP_PORT: ${{ secrets.SMTP_PORT || '587' }}
+      SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+      SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+      SMTP_FROM: ${{ secrets.SMTP_FROM || secrets.SMTP_USERNAME }}
+      SMTP_USE_SSL: ${{ secrets.SMTP_USE_SSL || 'false' }}
+      SMTP_STARTTLS: ${{ secrets.SMTP_STARTTLS || 'true' }}
 
     steps:
       - name: Checkout code
@@ -48,7 +50,7 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
-      - name: Use WeChat news config
+      - name: Use email news config
         run: cp data/config.wechat-news.example.json data/config.json
 
       - name: Generate 36-item daily news summary
@@ -63,8 +65,8 @@ jobs:
           publish_branch: gh-pages
           enable_jekyll: true
 
-      - name: Publish to WeChat Official Account
-        run: uv run python scripts/publish_wechat.py --lang zh
+      - name: Send daily summary email
+        run: uv run python scripts/send_email_summary.py --lang zh
 
       - name: Upload generated summaries
         if: always()
@@ -75,4 +77,3 @@ jobs:
             data/summaries/*.md
             docs/_posts/*.md
           if-no-files-found: ignore
-
