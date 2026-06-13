@@ -1,0 +1,55 @@
+name: Upload WeChat Cover
+
+on:
+  workflow_dispatch:
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Upload cover image as permanent WeChat material
+        env:
+          WECHAT_APP_ID: ${{ secrets.WECHAT_APP_ID }}
+          WECHAT_APP_SECRET: ${{ secrets.WECHAT_APP_SECRET }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${WECHAT_APP_ID:-}" ] || [ -z "${WECHAT_APP_SECRET:-}" ]; then
+            echo "WECHAT_APP_ID and WECHAT_APP_SECRET secrets are required." >&2
+            exit 1
+          fi
+
+          token_response="$(curl -sS --get "https://api.weixin.qq.com/cgi-bin/token" \
+            --data-urlencode "grant_type=client_credential" \
+            --data-urlencode "appid=${WECHAT_APP_ID}" \
+            --data-urlencode "secret=${WECHAT_APP_SECRET}")"
+
+          access_token="$(python - <<'PY' "$token_response"
+import json
+import sys
+data = json.loads(sys.argv[1])
+if "access_token" not in data:
+    raise SystemExit(f"Could not get access_token: {data}")
+print(data["access_token"])
+PY
+)"
+
+          upload_response="$(curl -sS \
+            -F "media=@assets/wechat-cover.jpg" \
+            "https://api.weixin.qq.com/cgi-bin/material/add_material?access_token=${access_token}&type=image")"
+
+          python - <<'PY' "$upload_response"
+import json
+import sys
+data = json.loads(sys.argv[1])
+media_id = data.get("media_id")
+if not media_id:
+    raise SystemExit(f"WeChat upload failed: {data}")
+print("")
+print("Copy this value into GitHub Actions secret WECHAT_THUMB_MEDIA_ID:")
+print(media_id)
+print("")
+PY
