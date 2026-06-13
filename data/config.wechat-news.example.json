@@ -1,0 +1,185 @@
+{
+  "version": "1.0",
+  "ai": {
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "temperature": 0.2,
+    "max_tokens": 8192,
+    "throttle_sec": 0.5,
+    "analysis_concurrency": 2,
+    "enrichment_concurrency": 2,
+    "languages": ["zh"]
+  },
+  "sources": {
+    "github": [],
+    "hackernews": {
+      "enabled": true,
+      "fetch_top_stories": 50,
+      "min_score": 80
+    },
+    "rss": [
+      {
+        "name": "The Paper Featured",
+        "url": "${RSSHUB_BASE}/thepaper/featured",
+        "enabled": true,
+        "category": "domestic"
+      },
+      {
+        "name": "Caixin Latest",
+        "url": "${RSSHUB_BASE}/caixin/latest",
+        "enabled": true,
+        "category": "domestic"
+      },
+      {
+        "name": "Jiemian News",
+        "url": "${RSSHUB_BASE}/jiemian/list/1",
+        "enabled": true,
+        "category": "domestic"
+      },
+      {
+        "name": "Zaobao China Realtime",
+        "url": "${RSSHUB_BASE}/zaobao/realtime/china",
+        "enabled": true,
+        "category": "domestic"
+      },
+      {
+        "name": "36Kr Newsflashes",
+        "url": "${RSSHUB_BASE}/36kr/newsflashes",
+        "enabled": true,
+        "category": "domestic-tech"
+      },
+      {
+        "name": "ITHome 24h Ranking",
+        "url": "${RSSHUB_BASE}/ithome/ranking/24h",
+        "enabled": true,
+        "category": "domestic-tech"
+      },
+      {
+        "name": "BBC Chinese",
+        "url": "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml",
+        "enabled": true,
+        "category": "international"
+      },
+      {
+        "name": "DW Chinese",
+        "url": "https://rss.dw.com/rdf/rss-chi-all",
+        "enabled": true,
+        "category": "international"
+      },
+      {
+        "name": "RFI Chinese",
+        "url": "https://www.rfi.fr/cn/rss",
+        "enabled": true,
+        "category": "international"
+      },
+      {
+        "name": "BBC World",
+        "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+        "enabled": true,
+        "category": "international"
+      },
+      {
+        "name": "The Guardian World",
+        "url": "https://www.theguardian.com/world/rss",
+        "enabled": true,
+        "category": "international"
+      },
+      {
+        "name": "The New York Times World",
+        "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+        "enabled": true,
+        "category": "international"
+      },
+      {
+        "name": "NPR News",
+        "url": "https://feeds.npr.org/1001/rss.xml",
+        "enabled": true,
+        "category": "international"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/xml/rss/all.xml",
+        "enabled": true,
+        "category": "international"
+      },
+      {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/feed/",
+        "enabled": true,
+        "category": "tech"
+      },
+      {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/feed/",
+        "enabled": true,
+        "category": "tech"
+      },
+      {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/rss/index.xml",
+        "enabled": true,
+        "category": "tech"
+      },
+      {
+        "name": "CNBC Top News",
+        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "enabled": true,
+        "category": "finance"
+      }
+    ],
+    "reddit": {
+      "enabled": false,
+      "subreddits": [],
+      "users": [],
+      "fetch_comments": 0
+    },
+    "telegram": {
+      "enabled": false,
+      "channels": []
+    },
+    "twitter": {
+      "enabled": false,
+      "mode": "apify",
+      "users": [],
+      "fetch_limit": 10
+    },
+    "openbb": {
+      "enabled": false,
+      "watchlists": [],
+      "fetch_filings": false
+    },
+    "ossinsight": {
+      "enabled": false,
+      "period": "past_24_hours",
+      "languages": ["All"],
+      "keywords": [],
+      "min_stars": 5,
+      "max_items": 30
+    }
+  },
+  "filtering": {
+    "ai_score_threshold": 6.8,
+    "time_window_hours": 24,
+    "max_items": 36,
+    "category_groups": {
+      "domestic": {
+        "name": "Domestic News",
+        "limit": 18,
+        "categories": ["domestic", "domestic-tech"]
+      },
+      "international": {
+        "name": "International News",
+        "limit": 18,
+        "categories": ["international"]
+      },
+      "tech_finance": {
+        "name": "Tech and Finance",
+        "limit": 8,
+        "categories": ["tech", "finance"]
+      }
+    },
+    "default_group": "other",
+    "default_group_limit": 4
+  }
+}
