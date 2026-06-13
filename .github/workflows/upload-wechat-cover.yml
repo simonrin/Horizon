@@ -22,34 +22,20 @@ jobs:
             exit 1
           fi
 
-          token_response="$(curl -sS --get "https://api.weixin.qq.com/cgi-bin/token" \
+          token_response=$(curl -sS --get "https://api.weixin.qq.com/cgi-bin/token" \
             --data-urlencode "grant_type=client_credential" \
             --data-urlencode "appid=${WECHAT_APP_ID}" \
-            --data-urlencode "secret=${WECHAT_APP_SECRET}")"
+            --data-urlencode "secret=${WECHAT_APP_SECRET}")
 
-          access_token="$(python - <<'PY' "$token_response"
-import json
-import sys
-data = json.loads(sys.argv[1])
-if "access_token" not in data:
-    raise SystemExit(f"Could not get access_token: {data}")
-print(data["access_token"])
-PY
-)"
+          access_token=$(TOKEN_RESPONSE="$token_response" python -c 'import json, os, sys; data=json.loads(os.environ["TOKEN_RESPONSE"]); token=data.get("access_token"); print(token) if token else sys.exit(f"Could not get access_token: {data}")')
 
-          upload_response="$(curl -sS \
+          upload_response=$(curl -sS \
             -F "media=@assets/wechat-cover.jpg" \
-            "https://api.weixin.qq.com/cgi-bin/material/add_material?access_token=${access_token}&type=image")"
+            "https://api.weixin.qq.com/cgi-bin/material/add_material?access_token=${access_token}&type=image")
 
-          python - <<'PY' "$upload_response"
-import json
-import sys
-data = json.loads(sys.argv[1])
-media_id = data.get("media_id")
-if not media_id:
-    raise SystemExit(f"WeChat upload failed: {data}")
-print("")
-print("Copy this value into GitHub Actions secret WECHAT_THUMB_MEDIA_ID:")
-print(media_id)
-print("")
-PY
+          media_id=$(UPLOAD_RESPONSE="$upload_response" python -c 'import json, os, sys; data=json.loads(os.environ["UPLOAD_RESPONSE"]); media_id=data.get("media_id"); print(media_id) if media_id else sys.exit(f"WeChat upload failed: {data}")')
+
+          echo ""
+          echo "Copy this value into GitHub Actions secret WECHAT_THUMB_MEDIA_ID:"
+          echo "$media_id"
+          echo ""
