@@ -20,7 +20,7 @@ def env_required(name: str) -> str:
 
 def env_bool(name: str, default: bool) -> bool:
     value = os.getenv(name)
-    if value is None:
+    if value is None or not value.strip():
         return default
     return value.strip().lower() in {"1", "true", "yes", "on"}
 
@@ -69,7 +69,7 @@ def send(message: EmailMessage) -> None:
     username = env_required("SMTP_USERNAME")
     password = env_required("SMTP_PASSWORD")
     use_ssl = env_bool("SMTP_USE_SSL", port == 465)
-    starttls = env_bool("SMTP_STARTTLS", not use_ssl)
+    starttls = env_bool("SMTP_STARTTLS", not use_ssl and port != 25)
 
     if use_ssl:
         with smtplib.SMTP_SSL(host, port, context=ssl.create_default_context()) as server:
