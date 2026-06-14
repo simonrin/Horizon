@@ -53,7 +53,7 @@ jobs:
       - name: Use email news config
         run: cp data/config.wechat-news.example.json data/config.json
 
-      - name: Generate 36-item daily news summary
+      - name: Generate 28-item daily news summary
         run: uv run horizon --hours 24
 
       - name: Deploy GitHub Pages
