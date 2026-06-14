@@ -32,8 +32,8 @@ jobs:
       SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
       SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
       SMTP_FROM: ${{ secrets.SMTP_FROM || secrets.SMTP_USERNAME }}
-      SMTP_USE_SSL: ${{ secrets.SMTP_USE_SSL || 'false' }}
-      SMTP_STARTTLS: ${{ secrets.SMTP_STARTTLS || 'true' }}
+      SMTP_USE_SSL: ${{ secrets.SMTP_USE_SSL }}
+      SMTP_STARTTLS: ${{ secrets.SMTP_STARTTLS }}
 
     steps:
       - name: Checkout code
