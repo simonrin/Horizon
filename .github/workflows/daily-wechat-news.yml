@@ -6,6 +6,7 @@ on:
     paths:
       - ".github/workflows/daily-wechat-news.yml"
       - "scripts/send_email_summary.py"
+      - "data/config.wechat-news.example.json"
   schedule:
     # 08:00 Asia/Shanghai every day.
     - cron: "0 0 * * *"
