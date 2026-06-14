@@ -66,6 +66,10 @@ def strip_markdown(text: str) -> str:
     return html.unescape(text).strip()
 
 
+def split_paragraphs(text: str) -> list[str]:
+    return [paragraph.strip() for paragraph in re.split(r"\n\s*\n", text) if paragraph.strip()]
+
+
 def split_generated_summary(markdown: str) -> tuple[str, str, list[dict[str, str]]]:
     text = markdown.replace("\r\n", "\n").replace("\r", "\n")
     first_heading = re.search(r"^#\s+(.+)$", text, flags=re.MULTILINE)
@@ -99,9 +103,9 @@ def split_generated_summary(markdown: str) -> tuple[str, str, list[dict[str, str
         body = strip_markdown(body)
         items.append(
             {
-                "title": item_title,
+                "title": strip_markdown(item_title),
                 "url": url,
-                "score": score,
+                "score": strip_markdown(score),
                 "body": body,
             }
         )
@@ -122,15 +126,107 @@ def build_plain_email_body(markdown: str) -> str:
     for index, item in enumerate(items, start=1):
         heading = f"{index}. {item['title']}"
         if item["score"]:
-            heading = f"{heading} {strip_markdown(item['score'])}"
+            heading = f"{heading} {item['score']}"
         lines.append(heading)
         if item["url"]:
-            lines.append(f"链接: {item['url']}")
-        if item["body"]:
-            lines.extend(["", item["body"]])
+            lines.append(f"链接/跳转: {item['url']}")
+
+        paragraphs = split_paragraphs(item["body"])
+        if paragraphs:
+            lines.extend(["", f"重点: {paragraphs[0]}"])
+            if len(paragraphs) > 1:
+                lines.extend(["", *paragraphs[1:]])
         lines.append("")
 
     return "\n".join(lines).strip() + "\n"
+
+
+def link_icons(url: str) -> str:
+    if not url:
+        return ""
+    safe_url = html.escape(url, quote=True)
+    return (
+        f' <a href="{safe_url}" title="原文链接" '
+        'style="color:#2563eb;text-decoration:none;font-size:16px;">🔗</a>'
+        f' <a href="{safe_url}" title="跳转打开" '
+        'style="color:#2563eb;text-decoration:none;font-size:16px;">↗</a>'
+    )
+
+
+def html_paragraph(text: str, *, muted: bool = False) -> str:
+    escaped = html.escape(text)
+    color = "#64748b" if muted else "#0f172a"
+    return (
+        f'<p style="margin:8px 0 0 0;color:{color};font-size:15px;'
+        f'line-height:1.65;">{escaped}</p>'
+    )
+
+
+def build_html_email_body(markdown: str) -> str:
+    title, intro, items = split_generated_summary(markdown)
+    if not items:
+        return f"<pre>{html.escape(strip_markdown(markdown))}</pre>"
+
+    item_cards: list[str] = []
+    for index, item in enumerate(items, start=1):
+        paragraphs = split_paragraphs(item["body"])
+        key_point = paragraphs[0] if paragraphs else ""
+        details = paragraphs[1:]
+
+        score_html = ""
+        if item["score"]:
+            score_html = (
+                '<span style="margin-left:8px;color:#f59e0b;font-size:13px;'
+                f'font-weight:600;">{html.escape(item["score"])}</span>'
+            )
+
+        detail_html = "".join(html_paragraph(paragraph, muted=True) for paragraph in details)
+
+        key_html = ""
+        if key_point:
+            key_html = (
+                '<div style="margin-top:12px;padding:12px 14px;'
+                'background:#fff7ed;border-left:4px solid #f97316;'
+                'border-radius:8px;color:#7c2d12;font-size:15px;line-height:1.65;">'
+                '<strong>重点：</strong>'
+                f'{html.escape(key_point)}'
+                '</div>'
+            )
+
+        item_cards.append(
+            '<section style="margin:18px 0;padding:18px 18px;'
+            'border:1px solid #e2e8f0;border-radius:14px;background:#ffffff;">'
+            '<h2 style="margin:0;color:#0f172a;font-size:18px;line-height:1.45;">'
+            f'<span style="color:#2563eb;">{index}.</span> '
+            f'<strong>{html.escape(item["title"])}</strong>'
+            f'{link_icons(item["url"])}'
+            f'{score_html}'
+            '</h2>'
+            f'{key_html}'
+            f'{detail_html}'
+            '</section>'
+        )
+
+    intro_html = ""
+    if intro:
+        intro_html = (
+            '<p style="margin:8px 0 0 0;color:#475569;font-size:15px;'
+            f'line-height:1.6;">{html.escape(intro)}</p>'
+        )
+
+    return (
+        '<!doctype html><html><body style="margin:0;padding:0;'
+        'background:#f8fafc;font-family:-apple-system,BlinkMacSystemFont,'
+        "Segoe UI,Arial,'Microsoft YaHei',sans-serif;">"
+        '<main style="max-width:760px;margin:0 auto;padding:24px 14px;">'
+        '<header style="padding:20px 18px;background:#0f172a;'
+        'border-radius:16px;color:white;">'
+        f'<h1 style="margin:0;font-size:24px;line-height:1.35;">{html.escape(title)}</h1>'
+        f'{intro_html}'
+        '</header>'
+        f'{"".join(item_cards)}'
+        '</main></body></html>'
+    )
 
 
 def build_message(summary_path: Path, lang: str) -> EmailMessage:
@@ -144,13 +240,15 @@ def build_message(summary_path: Path, lang: str) -> EmailMessage:
     if not raw_body:
         raise SystemExit(f"Generated summary is empty: {summary_path}")
 
-    body = build_plain_email_body(raw_body)
+    plain_body = build_plain_email_body(raw_body)
+    html_body = build_html_email_body(raw_body)
 
     message = EmailMessage()
     message["From"] = mail_from
     message["To"] = mail_to
     message["Subject"] = f"{subject_prefix} {today}"
-    message.set_content(body)
+    message.set_content(plain_body)
+    message.add_alternative(html_body, subtype="html")
     message["X-Horizon-Lang"] = lang
     return message
 
