@@ -217,7 +217,7 @@ def build_html_email_body(markdown: str) -> str:
     return (
         '<!doctype html><html><body style="margin:0;padding:0;'
         'background:#f8fafc;font-family:-apple-system,BlinkMacSystemFont,'
-        "Segoe UI,Arial,'Microsoft YaHei',sans-serif;">"
+        'Segoe UI,Arial,"Microsoft YaHei",sans-serif;">'
         '<main style="max-width:760px;margin:0 auto;padding:24px 14px;">'
         '<header style="padding:20px 18px;background:#0f172a;'
         'border-radius:16px;color:white;">'
