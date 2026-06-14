@@ -199,13 +199,13 @@
     }
   },
   "filtering": {
-    "ai_score_threshold": 4.2,
+    "ai_score_threshold": 0.1,
     "time_window_hours": 24,
     "max_items": 28,
     "category_groups": {
       "domestic_general": {
         "name": "China Domestic News",
-        "limit": 14,
+        "limit": 16,
         "categories": [
           "domestic"
         ]
