@@ -17,7 +17,7 @@
     "github": [],
     "hackernews": {
       "enabled": true,
-      "fetch_top_stories": 35,
+      "fetch_top_stories": 25,
       "min_score": 80
     },
     "rss": [
@@ -199,29 +199,35 @@
     }
   },
   "filtering": {
-    "ai_score_threshold": 5,
+    "ai_score_threshold": 4.2,
     "time_window_hours": 24,
     "max_items": 28,
     "category_groups": {
-      "domestic": {
-        "name": "Domestic News",
-        "limit": 20,
+      "domestic_general": {
+        "name": "China Domestic News",
+        "limit": 14,
         "categories": [
-          "domestic",
+          "domestic"
+        ]
+      },
+      "domestic_business_tech": {
+        "name": "China Business and Tech",
+        "limit": 8,
+        "categories": [
           "domestic-tech",
           "domestic-finance"
         ]
       },
       "international": {
         "name": "International News",
-        "limit": 8,
+        "limit": 5,
         "categories": [
           "international"
         ]
       },
       "tech_finance": {
-        "name": "Tech and Finance",
-        "limit": 4,
+        "name": "Global Tech and Finance",
+        "limit": 3,
         "categories": [
           "tech",
           "finance"
@@ -229,6 +235,6 @@
       }
     },
     "default_group": "other",
-    "default_group_limit": 2
+    "default_group_limit": 1
   }
 }
