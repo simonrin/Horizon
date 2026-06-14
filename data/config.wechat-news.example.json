@@ -9,7 +9,9 @@
     "throttle_sec": 0.5,
     "analysis_concurrency": 2,
     "enrichment_concurrency": 2,
-    "languages": ["zh"]
+    "languages": [
+      "zh"
+    ]
   },
   "sources": {
     "github": [],
@@ -126,6 +128,60 @@
         "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
         "enabled": true,
         "category": "finance"
+      },
+      {
+        "name": "China News Service",
+        "url": "${RSSHUB_BASE}/chinanews?limit=80",
+        "enabled": true,
+        "category": "domestic"
+      },
+      {
+        "name": "People Daily Homepage",
+        "url": "${RSSHUB_BASE}/people?limit=60",
+        "enabled": true,
+        "category": "domestic"
+      },
+      {
+        "name": "People Daily CPC 24h",
+        "url": "${RSSHUB_BASE}/people/cpc/24h?limit=60",
+        "enabled": true,
+        "category": "domestic"
+      },
+      {
+        "name": "The Paper Politics",
+        "url": "${RSSHUB_BASE}/thepaper/channel/25950?limit=50",
+        "enabled": true,
+        "category": "domestic"
+      },
+      {
+        "name": "The Paper Finance",
+        "url": "${RSSHUB_BASE}/thepaper/channel/25951?limit=50",
+        "enabled": true,
+        "category": "domestic"
+      },
+      {
+        "name": "Yicai Latest",
+        "url": "${RSSHUB_BASE}/yicai/latest?limit=60",
+        "enabled": true,
+        "category": "domestic-finance"
+      },
+      {
+        "name": "Yicai Macro",
+        "url": "${RSSHUB_BASE}/yicai/news/hongguan?limit=50",
+        "enabled": true,
+        "category": "domestic-finance"
+      },
+      {
+        "name": "CLS Telegraph",
+        "url": "${RSSHUB_BASE}/cls/telegraph?limit=80",
+        "enabled": true,
+        "category": "domestic-finance"
+      },
+      {
+        "name": "CLS Hot",
+        "url": "${RSSHUB_BASE}/cls/hot?limit=50",
+        "enabled": true,
+        "category": "domestic-finance"
       }
     ],
     "reddit": {
@@ -152,31 +208,42 @@
     "ossinsight": {
       "enabled": false,
       "period": "past_24_hours",
-      "languages": ["All"],
+      "languages": [
+        "All"
+      ],
       "keywords": [],
       "min_stars": 5,
       "max_items": 30
     }
   },
   "filtering": {
-    "ai_score_threshold": 6.8,
+    "ai_score_threshold": 5.8,
     "time_window_hours": 24,
-    "max_items": 36,
+    "max_items": 28,
     "category_groups": {
       "domestic": {
         "name": "Domestic News",
         "limit": 18,
-        "categories": ["domestic", "domestic-tech"]
+        "categories": [
+          "domestic",
+          "domestic-tech",
+          "domestic-finance"
+        ]
       },
       "international": {
         "name": "International News",
-        "limit": 18,
-        "categories": ["international"]
+        "limit": 8,
+        "categories": [
+          "international"
+        ]
       },
       "tech_finance": {
         "name": "Tech and Finance",
-        "limit": 8,
-        "categories": ["tech", "finance"]
+        "limit": 4,
+        "categories": [
+          "tech",
+          "finance"
+        ]
       }
     },
     "default_group": "other",
