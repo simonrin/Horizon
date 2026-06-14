@@ -5,258 +5,235 @@ date: 2026-06-14
 lang: zh
 ---
 
-> 从 295 条内容中筛选出 28 条重要资讯。
+> 从 287 条内容中筛选出 17 条重要资讯。
 
 ---
 
-1. [GLM-5.2 作为完全开放的前沿模型发布](#item-1) ⭐️ 9.0/10
-2. [Anthropic 应美国政府要求禁用最强 AI 模型](#item-2) ⭐️ 9.0/10
-3. [本田思域车机更新使用 AOSP 测试密钥签名](#item-3) ⭐️ 8.0/10
-4. [全球首条百万片级体全息光波导产线在天津投产](#item-4) ⭐️ 8.0/10
-5. [谷歌在 AI 模式中推出主动式搜索智能体](#item-5) ⭐️ 8.0/10
-6. [埃博拉疫情扩大，药物试验启动](#item-6) ⭐️ 8.0/10
-7. [Meta 应北京要求撤销 20 亿美元 Manus 收购案](#item-7) ⭐️ 8.0/10
-8. [KPMG 因 AI 幻觉撤回报告](#item-8) ⭐️ 8.0/10
-9. [中国计划到 2030 年建成 15 条特高压直流通道](#item-9) ⭐️ 7.0/10
-10. [马斯克：特斯拉 AI6 芯片有望创下单晶圆算力纪录](#item-10) ⭐️ 7.0/10
-11. [鸿蒙 OS 7.0 Beta 1：内核快启与音频引擎更新](#item-11) ⭐️ 7.0/10
-12. [三星提出海上浮动 AI 数据中心方案，解决电力与冷却难题](#item-12) ⭐️ 7.0/10
-13. [Meta 因强制抽调员工组建 AI 团队引发内部不满](#item-13) ⭐️ 7.0/10
-14. [州检察长调查 OpenAI 广告与健康数据处理](#item-14) ⭐️ 7.0/10
-15. [FBI 建造仿真小镇用于网络攻击模拟训练](#item-15) ⭐️ 7.0/10
-16. [AI 时代留学就业白皮书发布](#item-16) ⭐️ 6.0/10
-17. [我国首次开展蔬菜纯电农机实地测评](#item-17) ⭐️ 6.0/10
-18. [SpaceX 上市揭示“一极盈利、两极亏损”格局](#item-18) ⭐️ 6.0/10
-19. [HDC 2026：鸿蒙生态设备达 6600 万，广告主增长 200%](#item-19) ⭐️ 6.0/10
-20. [FDA 警告：电子设备需与心脏植入物保持 15 厘米距离](#item-20) ⭐️ 6.0/10
-21. [DSX v3.2 Beta 01 让 DualSense 手柄在 PC 上支持蓝牙高清触觉反馈](#item-21) ⭐️ 6.0/10
-22. [消息称 Steam Machine 评测样机已分发媒体](#item-22) ⭐️ 6.0/10
-23. [爆料称 MacBook Ultra 将配备触控屏](#item-23) ⭐️ 6.0/10
-24. [广汽华为联合品牌启境获广州 L3 自动驾驶路测许可](#item-24) ⭐️ 6.0/10
-25. [苹果申请专利减少无人机集群网络拥堵](#item-25) ⭐️ 6.0/10
-26. [顺丰牵头首个快递电子运单国际标准](#item-26) ⭐️ 6.0/10
-27. [科技领袖修正 AI 就业末日论调](#item-27) ⭐️ 6.0/10
-28. [科学家警告新一轮厄尔尼诺现象可能成为超级事件](#item-28) ⭐️ 6.0/10
+1. [GLM 5.2 作为完全开放的前沿模型发布](#item-1) ⭐️ 9.0/10
+2. [Anthropic 应美国政府要求暂停最强 AI 系统访问](#item-2) ⭐️ 9.0/10
+3. [谷歌在 AI 模式中推出主动搜索智能体](#item-3) ⭐️ 8.0/10
+4. [埃博拉疫情扩大，药物试验启动](#item-4) ⭐️ 8.0/10
+5. [Meta 应北京要求撤销 20 亿美元 Manus 收购](#item-5) ⭐️ 8.0/10
+6. [全球首条百万片级体全息光波导产线投产](#item-6) ⭐️ 7.0/10
+7. [马斯克：特斯拉 AI6 芯片有望创下单块晶圆可用算力纪录](#item-7) ⭐️ 7.0/10
+8. [FDA 警告：消费电子产品的磁铁可能干扰心脏起搏器](#item-8) ⭐️ 7.0/10
+9. [鸿蒙 7.0 Beta 1：内核快启与音频引擎大更新](#item-9) ⭐️ 7.0/10
+10. [三星提出海上浮动 AI 数据中心方案](#item-10) ⭐️ 7.0/10
+11. [KPMG 因 AI 幻觉撤回报告](#item-11) ⭐️ 7.0/10
+12. [OpenAI 面临州检察长调查](#item-12) ⭐️ 7.0/10
+13. [AI 时代留学就业白皮书发布](#item-13) ⭐️ 6.0/10
+14. [中国计划到 2030 年建成 15 条特高压直流通道](#item-14) ⭐️ 6.0/10
+15. [科学家警告新一轮厄尔尼诺可能成为“超级”事件](#item-15) ⭐️ 6.0/10
+16. [近半数英国女孩一周内看到有害社交媒体内容](#item-16) ⭐️ 6.0/10
+17. [乌克兰面临爱国者拦截弹严重短缺](#item-17) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [GLM-5.2 作为完全开放的前沿模型发布](https://twitter.com/jietang/status/2065784751345287314) ⭐️ 9.0/10
+## [GLM 5.2 作为完全开放的前沿模型发布](https://twitter.com/jietang/status/2065784751345287314) ⭐️ 9.0/10
 
-Z.ai（原智谱 AI）发布了 GLM-5.2，这是一个完全开放的前沿 AI 模型，免费提供给全球社区。 在部分美国公司限制模型访问之际，此次发布提供了对尖端模型的无限制访问，凸显了 AI 发展的地缘政治维度，并确保全球研究者和开发者能继续使用前沿 AI。 GLM-5.2 以宽松许可证发布，权重和代码完全开放。官方尚未公布基准测试结果，但该模型预计将与其他前沿模型竞争。
+智谱 AI 发布了 GLM-5.2，这是一个完全开放的前沿模型，支持 100 万上下文窗口和两种思考模式，采用 MIT 许可证。 此次发布挑战了美国对 AI 模型访问的限制，促进了 AGI 的全球可及性，并展示了开放权重模型可以与专有模型竞争。 GLM-5.2 支持可用的 100 万上下文窗口，并提供两种思考模式：max 和 high，其中 max 模式推荐用于编码任务。
 
 hackernews · aloknnikhil · 6月13日 16:18 · [社区讨论](https://news.ycombinator.com/item?id=48518684)
 
-**背景**: 前沿 AI 模型是最先进的通用模型，需要巨大的计算资源进行训练。Z.ai 是一家中国 AI 公司，开发 GLM 系列模型。此次发布正值美国政府限制某些 AI 模型出口之际，使得开放的中国模型对全球 AI 社区越来越有价值。
+**背景**: 前沿模型是最先进的通用 AI 模型，训练成本往往高达数亿美元。近期美国的限制措施限制了对某些前沿模型的访问，引发了关于 AI 开发开放性的讨论。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Z.ai">Z.ai - Wikipedia</a></li>
-<li><a href="https://www.nvidia.com/en-us/glossary/frontier-models/">What Are Frontier AI Models and How They Work | NVIDIA Glossary</a></li>
-<li><a href="https://news.ycombinator.com/item?id=44711106">GLM-4.5: Reasoning, Coding, and Agentic Abililties | Hacker News</a></li>
+<li><a href="https://news.ycombinator.com/item?id=48518684">GLM 5.2 Is Out - Hacker News</a></li>
+<li><a href="https://www.reddit.com/r/LocalLLaMA/comments/1u4nmpl/glm_52_is_deployed_in_glm_coding_plan_api_and_mit/">GLM 5.2 is deployed in GLM Coding Plan. API and MIT weights ... - Reddit</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区反应非常积极，许多人感谢中国实验室的开放，并将其与美国审查制度进行对比。一些用户注意到中国实验室发布速度之快（MiniMaxM3、KimiK2.7、GLM-5.2），并强调了开放权重模型在避免地缘政治限制方面的战略重要性。
+**社区讨论**: Hacker News 社区普遍赞扬此次发布，用户注意到中国实验室的开放性与美国审查制度之间的对比。一些用户报告了 API 注册问题，而另一些用户则强调了开放权重模型的战略重要性。
 
-**标签**: `#AI`, `#open source`, `#GLM`, `#frontier models`, `#geopolitics`
+**标签**: `#AI`, `#open-source`, `#GLM`, `#frontier models`, `#AGI`
 
 ---
 
 <a id="item-2"></a>
-## [Anthropic 应美国政府要求禁用最强 AI 模型](https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85/20260613-%E7%BE%8E%E5%9B%BD%E9%A1%B6%E7%BA%A7%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%85%AC%E5%8F%B8anthropic%E5%BA%94%E6%94%BF%E5%BA%9C%E8%A6%81%E6%B1%82%E6%9A%82%E5%81%9C%E6%9C%80%E5%BC%BA%E5%A4%A7ai%E7%B3%BB%E7%BB%9F%E8%AE%BF%E9%97%AE) ⭐️ 9.0/10
+## [Anthropic 应美国政府要求暂停最强 AI 系统访问](https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85/20260613-%E7%BE%8E%E5%9B%BD%E9%A1%B6%E7%BA%A7%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%85%AC%E5%8F%B8anthropic%E5%BA%94%E6%94%BF%E5%BA%9C%E8%A6%81%E6%B1%82%E6%9A%82%E5%81%9C%E6%9C%80%E5%BC%BA%E5%A4%A7ai%E7%B3%BB%E7%BB%9F%E8%AE%BF%E9%97%AE) ⭐️ 9.0/10
 
-2026 年 6 月 13 日，Anthropic 在发布其最先进 AI 模型仅三天后，应美国政府以国家安全风险为由的前所未有要求，突然对所有用户禁用了这些模型。 这标志着 AI 治理的范式转变：一家领先的 AI 公司遵从政府干预，限制尖端模型的访问，为未来的监管开创先例，并影响全球 AI 的开发和部署。 该命令特别针对外国公民访问 Anthropic 最强大的模型，有报道称亚马逊 CEO 安迪·贾西的安全担忧可能引发了政府的行动。
+美国顶级 AI 公司 Anthropic 在发布其最强大 AI 模型仅三天后，应美国政府以国家安全风险为由的要求，暂停了这些模型的访问权限。 这一史无前例的政府干预标志着 AI 治理的重大转变，表明前沿 AI 模型可能因国家安全问题面临越来越严格的监管审查。 据报道，这一决定是由亚马逊 CEO 安迪·贾西提出的安全担忧引发的，涉及的模型被认为是 Anthropic 刚刚发布的“Fable”系列中最强大的模型。
 
 rss · RFI Chinese · 6月13日 13:23
 
-**背景**: Anthropic 是一家总部位于美国的 AI 安全公司，以其 Claude 系列大语言模型而闻名。美国政府日益关注先进 AI 带来的国家安全风险，尤其是外国势力可能获取强大模型并用于恶意目的。
+**背景**: Anthropic 是一家由前 OpenAI 员工创立的、专注于 AI 安全的公司，以开发 Claude 系列大语言模型而闻名。美国政府近年来在 AI 监管方面日益活跃，最近的行政命令和政策框架强调了国家安全和 AI 治理。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.reuters.com/technology/us-blocks-foreign-access-anthropics-most-advanced-ai-models-axios-reports-2026-06-13/">Anthropic disables top-tier AI models after US order limiting foreign access | Reuters</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Anthropic">Anthropic - Wikipedia</a></li>
-<li><a href="https://www.ynetnews.com/tech-and-digital/article/bjtrsuczmg">US national security order forces Anthropic to suspend advanced AI models</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者对政府为何针对 Anthropic 表示困惑，因为所有大语言模型都可能被越狱，并猜测'Fable'模型可能越过了某些界限。一些人指出亚马逊对 Anthropic 的投资，认为这一决定可能并非出于恶意，而是预防性措施。
+**社区讨论**: 社区评论对政府为何专门针对 Anthropic 的模型表示困惑，指出所有大语言模型都可能被越狱。一些人猜测亚马逊的参与以及“Fable”模型潜在的安全漏洞可能触发了这一行动，而另一些人则质疑该决定的透明度。
 
-**标签**: `#AI`, `#Anthropic`, `#AI Safety`, `#Government Regulation`, `#National Security`
+**标签**: `#AI safety`, `#Anthropic`, `#government regulation`, `#national security`, `#AI governance`
 
 ---
 
 <a id="item-3"></a>
-## [本田思域车机更新使用 AOSP 测试密钥签名](https://juniperspring.org/posts/honda-evil-valet/) ⭐️ 8.0/10
+## [谷歌在 AI 模式中推出主动搜索智能体](https://www.ithome.com/0/963/998.htm) ⭐️ 8.0/10
 
-安全研究员 librick 发现，第十代本田思域车机的固件更新使用公开的 AOSP 测试密钥签名，允许通过 USB 物理访问执行任意代码。 该漏洞暴露了汽车固件签名实践中的关键缺陷，可能使拥有物理访问权限的攻击者能够入侵车机，甚至影响车辆的 CAN 总线系统。 这些更新是 Android 4.2.2 时代的恢复包，带有本田添加的版本检查（可被伪造）；该漏洞无需 root 或 su 权限，并已在 2021 款思域上验证。
-
-hackernews · librick · 6月14日 00:49 · [社区讨论](https://news.ycombinator.com/item?id=48523080)
-
-**背景**: AOSP 测试密钥是 Android 开源项目中用于开发的默认签名密钥，它们是公开的，绝不应在生产设备中使用。本田使用这些密钥意味着任何人都可以通过前 USB 端口签名并刷写自定义固件到车机。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://github.com/wfairclough/android_aosp_keys">GitHub - wfairclough/android_aosp_keys: The platform keys that are used as test keys for the AOSP build · GitHub</a></li>
-<li><a href="https://www.civicx.com/forum/threads/what’s-latest-firmware-head-unit-update-also-how-do-we-check-what-our-patch-is.30559/">What’s latest firmware/ head unit update- also how do we check what our patch is? | 2016+ Honda Civic Forum (10th Gen) - Type R Forum, Si Forum - CivicX.com</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论者指出，这表明本田没有考虑对车主锁定系统，并担心车机与 CAN 总线和远程信息处理的连接。另一条评论强调，许多产品只检查签名是否存在，而不验证其有效性。
-
-**标签**: `#automotive security`, `#firmware`, `#Android`, `#vulnerability`, `#embedded systems`
-
----
-
-<a id="item-4"></a>
-## [全球首条百万片级体全息光波导产线在天津投产](https://36kr.com/newsflashes/3852424819807235?f=rss) ⭐️ 8.0/10
-
-尼卡光学（天津）有限公司启动了全球首条年产能达 100 万片的体全息光波导自动化产线，实现了 AR 核心显示元件的规模化量产。 这一突破解决了 AR 供应链的关键瓶颈，有望降低成本并加速消费级 AR 眼镜的普及，确保高质量光波导的稳定供应。 该产线配套建有千级洁净车间和精密环境控制系统，并采用尼卡自研的全息光刻设备与工艺平台。
-
-rss · 36Kr Feed · 6月14日 03:30
-
-**背景**: 体全息光波导（VHG）是一种衍射光波导，利用体全息光栅实现光的耦入和耦出。与表面浮雕光栅（SRG）相比，VHG 具有透过率高、效率高、成本低以及可配合塑料镜片等优势，是 AR 显示领域极具潜力的技术方向。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://m.gelonghui.com/p/726384">体全息光波导崛起（附股）</a></li>
-<li><a href="https://www.coema.org.cn/article/202406/5442.html">尼卡光学实现AR体全息光波导器件单绿色产品量产—中国光学光电子行业网</a></li>
-
-</ul>
-</details>
-
-**标签**: `#AR`, `#manufacturing`, `#holographic waveguide`, `#China`, `#hardware`
-
----
-
-<a id="item-5"></a>
-## [谷歌在 AI 模式中推出主动式搜索智能体](https://www.ithome.com/0/963/998.htm) ⭐️ 8.0/10
-
-谷歌已在 AI 模式中正式推出搜索智能体功能，允许用户设置持续监测智能体，主动扫描全网特定条件的信息，并在发现相关更新时推送通知。 这标志着从被动搜索向主动信息推送的范式转变，可能改变用户与搜索引擎的交互方式，并帮助用户及时了解股票价格、产品发布或突发新闻等时效性强的信息。 该功能目前仅限 Google AI Ultra 订阅用户使用，月费为 99.99 美元和 199.99 美元两档，但谷歌计划在今年夏季晚些时候将其下放至价格更低的 AI Pro 订阅档位。该功能支持 AI 模式目前覆盖的所有语言及地区。
+谷歌正式在 AI 模式中推出信息智能体功能，可全天候持续监测用户指定的网络信息并实时推送更新，从被动搜索转变为主动后台监控。 这标志着搜索范式的转变，用户无需手动检查即可即时收到突发新闻、产品发布或价格变化的提醒。它可能重新定义人们与信息交互的方式，并为 AI 驱动的搜索助手树立新标准。 该功能目前仅面向 Google AI Ultra 订阅用户（月费 99.99 美元或 199.99 美元），支持 AI 模式覆盖的所有语言和地区。谷歌计划在今年夏季晚些时候将其扩展至更低档位的 AI Pro 订阅。
 
 rss · ITHome Feed · 6月13日 23:28
 
-**背景**: Google AI 模式于 2025 年 5 月推出，是一个由定制版 Gemini 2.0 驱动的专用搜索标签页。此前，谷歌提供了定时任务等自动化工具，但它们按固定周期运行（如每天一次或每 15 分钟一次），而新的智能体则提供即时推送更新。
+**背景**: 传统搜索引擎需要用户主动输入查询并手动刷新以获取更新。谷歌之前的自动化工具（如 Gemini 的定时任务）按固定间隔运行（例如每天或每 15 分钟一次）。新的信息智能体通过持续智能分析，比定期检查更快地检测到变化，非常适合时效性强的追踪任务。
 
 <details><summary>参考链接</summary>
 <ul>
 <li><a href="https://blog.google/products-and-platforms/products/search/search-io-2026/">Google Search’s I/O 2026 updates: AI agents and more</a></li>
-<li><a href="https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches/">How to use Google’s new AI agents to go beyond your standard searches | TechCrunch</a></li>
-<li><a href="https://www.mindstudio.ai/blog/google-ai-search-mode-workflows-agents">Google AI Search Mode Explained: What It Means for Your Workflows and Agents | MindStudio</a></li>
+<li><a href="https://9to5google.com/2026/06/12/google-information-agents/">Google AI Mode starts rolling out information agents</a></li>
+<li><a href="https://www.androidheadlines.com/2026/06/google-ai-mode-search-agents-rollout-details.html">Google’s New AI Search Agents Will Track the Web for You</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Google`, `#AI`, `#search`, `#agents`, `#productivity`
+**标签**: `#Google`, `#AI`, `#search`, `#agents`, `#information retrieval`
 
 ---
 
-<a id="item-6"></a>
+<a id="item-4"></a>
 ## [埃博拉疫情扩大，药物试验启动](https://www.nytimes.com/2026/06/12/health/ebola-treatment-bundibugyo-virus.html) ⭐️ 8.0/10
 
-科学家们正在启动针对当前埃博拉疫情中 Bundibugyo 病毒的几种有前景药物的临床试验。 这至关重要，因为疫情正在扩大，目前尚无针对该病毒株的获批疗法；成功的试验可能挽救生命并遏制疫情。 这些药物是根据初步研究显示对 Bundibugyo 病毒有效而选出的，但具体化合物和试验阶段的细节尚未披露。
+科学家们正在启动针对几种有前景药物的临床试验，以应对由本迪布焦病毒引起的不断扩大的埃博拉疫情。 这至关重要，因为本迪布焦病毒死亡率高且治疗选择有限；成功的试验可以挽救生命并控制疫情。 这些试验正在刚果民主共和国和乌干达迅速启动，借鉴了先前埃博拉治疗药物的经验。
 
 rss · The New York Times World · 6月13日 19:11
 
-**背景**: 埃博拉是一种严重且常致命的病毒性疾病。当前疫情由 Bundibugyo 病毒引起，这是几种埃博拉病毒种之一。目前尚无针对该病毒种的获批疗法，因此这些试验十分紧迫。
-
-**标签**: `#Ebola`, `#public health`, `#clinical trials`, `#virology`
-
----
-
-<a id="item-7"></a>
-## [Meta 应北京要求撤销 20 亿美元 Manus 收购案](https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/) ⭐️ 8.0/10
-
-Meta 已开始撤销其对中国 AI 初创公司 Manus 的 20 亿美元收购，此前北京要求该交易逆转。 此举凸显了围绕 AI 技术转让的地缘政治紧张局势升级，并可能抑制未来涉及中国实体的跨境科技收购。 中国商务部正在审查该交易是否存在潜在的出口管制违规，评估在迁移 AI 技术时是否需要出口许可证。
-
-rss · TechCrunch · 6月14日 00:03
-
-**背景**: Manus 是一家中国创立的 AI 初创公司，Meta 以 20 亿美元收购。该交易面临中国监管机构的审查，他们担心敏感 AI 技术向海外转移。此案凸显了美中在科技领域日益增长的监管摩擦。
+**背景**: 本迪布焦病毒（BDBV）是一种埃博拉病毒，于 2007 年在乌干达首次发现。它引起严重的出血热，并在 2007 年、2012 年和现在的 2026 年引发了疫情。先前的埃博拉疫情，如 2014-2016 年的西非疫情，推动了实验性治疗方法的开发，这些方法现在正在针对 BDBV 进行测试。
 
 <details><summary>参考链接</summary>
 <ul>
+<li><a href="https://en.wikipedia.org/wiki/Bundibugyo_virus">Bundibugyo virus</a></li>
+<li><a href="https://www.nature.com/articles/d41586-026-01607-4">Race begins to trial Ebola drugs amid current outbreak - Nature</a></li>
+
+</ul>
+</details>
+
+**标签**: `#Ebola`, `#public health`, `#clinical trials`, `#virology`, `#outbreak`
+
+---
+
+<a id="item-5"></a>
+## [Meta 应北京要求撤销 20 亿美元 Manus 收购](https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/) ⭐️ 8.0/10
+
+据报道，Meta 已开始撤销对 AI 初创公司 Manus 的 20 亿美元收购，此前中国监管机构于 2026 年 4 月下令取消该交易。 这标志着北京首次下令撤销已完成的科技收购，凸显了地缘政治紧张局势升级以及 AI 领域跨境并购的监管风险。 该交易于 2025 年 12 月宣布，涉及总部位于新加坡、具有中国背景的 AI 智能体开发商 Manus。中国商务部对其进行了审查，以评估是否存在出口管制违规行为。
+
+rss · TechCrunch · 6月14日 00:03
+
+**背景**: Manus 是一家通用 AI 智能体初创公司，以其自主完成任务的能力而备受关注。Meta 收购它是为了将其技术整合到 Facebook、Instagram 和 WhatsApp 中。撤销命令依据的是中国的外商投资安全审查机制，该机制通常是在交易完成前阻止，而非完成后。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://techcrunch.com/2025/12/29/meta-just-bought-manus-an-ai-startup-everyone-has-been-talking-about/">Meta just bought Manus, an AI startup everyone has been ...</a></li>
+<li><a href="https://www.cnbc.com/2026/06/12/meta-reportedly-begins-dismantling-2-billion-manus-deal-on-beijings-orders.html">Meta reportedly begins dismantling $2 billion Manus deal on Beijing's ...</a></li>
 <li><a href="https://grokipedia.com/page/Acquisition_of_Manus_by_Meta">Acquisition of Manus by Meta</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Meta`, `#acquisition`, `#geopolitics`, `#regulation`, `#AI`
+**标签**: `#Meta`, `#acquisition`, `#geopolitics`, `#regulation`, `#Manus`
 
 ---
 
-<a id="item-8"></a>
-## [KPMG 因 AI 幻觉撤回报告](https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/) ⭐️ 8.0/10
+<a id="item-6"></a>
+## [全球首条百万片级体全息光波导产线投产](https://36kr.com/newsflashes/3852424819807235?f=rss) ⭐️ 7.0/10
 
-KPMG 撤回了一份关于 AI 使用情况的报告，因为该报告被发现包含大量幻觉内容，GPTZero 声称其中约一半的事实性声明是虚假的。 这一事件凸显了 AI 系统在专业环境中持续存在的可靠性问题，削弱了对 AI 生成内容的信任，并引发了对企业采用 AI 的担忧。 据 The Register 报道，该报告于 2025 年 10 月发布，重点介绍了代理型 AI 的好处，但却意外地展示了 AI 的幻觉问题。
+尼卡光学在天津投产了全球首条百万片级体全息光波导自动化产线，年产能达 100 万片，标志着 AR 核心显示元件规模化量产取得突破。 这一里程碑实现了体全息光波导的可规模化、低成本生产，这是消费级 AR 眼镜的关键元件，有望加速 AR 设备在消费市场的普及，并减少对外国供应商的依赖。 该产线拥有 1500 平方米千级洁净车间及精密环控系统，全线采用尼卡光学自主研发的全息光刻设备与工艺平台，拥有完整知识产权。
 
-rss · TechCrunch · 6月13日 20:42
+rss · 36Kr Feed · 6月14日 03:30
 
-**背景**: AI 幻觉是指大型语言模型生成看似合理但虚假的信息。这是在部署 LLM 时已知的挑战，尤其是在咨询等对准确性要求极高的领域。
+**背景**: 体全息光波导（VHG）是一种衍射光学元件，用于 AR 眼镜中引导光线，具有成本低、衍射效率高、无彩虹纹等优势。此前，VHG 所需的高性能材料与高精设备长期被国外供应商垄断，给中国 AR 制造商带来供应链风险。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.theregister.com/ai-and-ml/2026/06/12/kpmgs-ai-report-turns-into-a-demo-of-ai-hallucinations/5255029">KPMG's AI report turns into a demo of AI hallucinations - The Register</a></li>
-<li><a href="https://www.reddit.com/r/technology/comments/1u4qpum/kpmgs_ai_report_becomes_an_accidental_demo_of_ai/">KPMG's AI report becomes an accidental demo of AI hallucinations</a></li>
+<li><a href="https://www.ithome.com/0/963/988.htm">全球首条百万片级体全息光波导自动化产线在天津投产，消费级 AR 核心...</a></li>
+<li><a href="https://www.163.com/dy/article/KVBDO2PS0511B8LM.html">全球首条百万片级体全息光波导自动化产线在天津投产|ar|光学|天津市|...</a></li>
+<li><a href="https://www.tj.gov.cn/sy/tjxw/202606/t20260614_7317415.html">全球首条百万片级体全息光波导自动化产线在津投产</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: Reddit 用户对 AI 的可靠性表示怀疑，一些人指出这一事件凸显了人工监督的必要性。其他人则批评 KPMG 在发布前未核实报告内容。
+**标签**: `#AR`, `#manufacturing`, `#holographic waveguide`, `#China`, `#consumer electronics`
 
-**标签**: `#AI`, `#hallucinations`, `#enterprise`, `#reliability`, `#consulting`
+---
+
+<a id="item-7"></a>
+## [马斯克：特斯拉 AI6 芯片有望创下单块晶圆可用算力纪录](https://www.ithome.com/0/964/051.htm) ⭐️ 7.0/10
+
+埃隆·马斯克宣布，目前处于工程设计阶段的特斯拉 AI6 芯片，在考虑良率的情况下，有望创下单块晶圆可用算力的新纪录。该芯片将由三星在得克萨斯州的新工厂代工，合同金额达 165 亿美元。 该芯片对特斯拉的自动驾驶、Optimus 机器人和太空数据中心愿景至关重要，性能将在即将推出的 AI5 基础上翻倍。这标志着特斯拉推动 AI 硬件垂直整合，并在 AI 芯片竞赛中保持竞争优势。 AI6 将采用 LPDDR6 内存，并将近半数的 TRIP 人工智能运算加速器搭配 SRAM，以避免内存瓶颈。该芯片预计在 AI5 于 2027 年量产后，于 2028 年下半年投产。
+
+rss · ITHome Feed · 6月14日 03:55
+
+**背景**: 晶圆是用于制造芯片的半导体薄片；单块晶圆可用算力衡量从一块晶圆上生产出的合格芯片的总计算能力，需考虑良率。特斯拉目前的 AI4 芯片驱动其全自动驾驶（FSD）系统，AI5 已完成流片。公司计划先将 AI6 用于 Optimus 机器人和训练集群，再用于汽车。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/LPDDR">LPDDR</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/1927766761496872020">一文读懂新发布的移动内存LPDDR6标准，你准备好了吗？</a></li>
+
+</ul>
+</details>
+
+**标签**: `#Tesla`, `#AI chip`, `#autonomous driving`, `#hardware`
+
+---
+
+<a id="item-8"></a>
+## [FDA 警告：消费电子产品的磁铁可能干扰心脏起搏器](https://www.ithome.com/0/964/032.htm) ⭐️ 7.0/10
+
+美国 FDA 发布最新指南，建议佩戴心血管植入式电子设备的患者将带有磁铁的消费电子产品与设备保持至少 6 英寸（约 15 厘米）的距离，以防止磁场干扰。此前研究显示，AirPods、iPhone 和智能手表等设备可能触发起搏器和除颤器的磁安全模式。 这一指南对数百万佩戴起搏器或除颤器的患者至关重要，因为智能手机、无线耳机等日常设备现在可能暂时禁用这些救命疗法。现代电子产品中广泛使用的强稀土磁铁使得意外干扰的可能性比以往任何时候都大。 当磁场强度超过 10 高斯时，会触发磁安全模式，而常见的冰箱磁贴可达 100 高斯。2022 年发表在《循环：心律失常与电生理学》上的一项研究证实，AirPods、iPhone 12 Pro Max、Apple Pencil 和微软 Surface Pen 等设备都可能干扰心脏植入器械。
+
+rss · ITHome Feed · 6月14日 02:11
+
+**背景**: 心脏植入式电子设备（如起搏器和植入式心律转复除颤器）内置了“磁铁模式”，在强磁场中会激活，以在 MRI 扫描等医疗过程中保护患者。然而，消费电子产品中强力磁铁的日益普及可能无意中触发该模式，导致设备停止提供关键的起搏或电击治疗，直到磁铁移开。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.163.com/dy/article/KVCJ9VUE0511B8LM.html">消费电子产品磁场可干扰心脏起搏器|除颤器|植入式_网易订阅</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/403923940">新手机，老问题？含有磁铁的手机对心脏起搏器的干扰 - 知乎</a></li>
+<li><a href="https://health.baidu.com/m/detail/ar_6254240831864902193">心脏起搏器对电磁环境要求 | 百度健康·医学科普</a></li>
+
+</ul>
+</details>
+
+**标签**: `#health`, `#consumer electronics`, `#medical devices`, `#safety`, `#FDA`
 
 ---
 
 <a id="item-9"></a>
-## [中国计划到 2030 年建成 15 条特高压直流通道](https://36kr.com/newsflashes/3852345783129352?f=rss) ⭐️ 7.0/10
+## [鸿蒙 7.0 Beta 1：内核快启与音频引擎大更新](https://www.ithome.com/0/964/029.htm) ⭐️ 7.0/10
 
-中国计划在“十五五”期间（2026-2030 年）建设 15 条特高压直流输电线路，配电网投资将占电网总投资的 60%。到 2030 年，电网将支持 9 亿千瓦分布式新能源和超过 4000 万台充电桩。 这一大规模电网扩建对于整合中国日益增长的可再生能源产能和支持交通电气化至关重要，同时将投资转向配电网标志着电力系统现代化，以应对分布式发电和智能微电网的挑战。 特高压直流线路将从十大清洁能源基地向负荷中心输电，“西电东送”规模将超过 4.2 亿千瓦。新型电网平台将结合主干电网、配电网和智能微电网，目标是新能源发电量占比达到约 30%。
-
-rss · 36Kr Feed · 6月14日 02:45
-
-**背景**: 特高压直流输电技术能够实现低损耗的长距离高效输电，对于中国将西部可再生能源输送到东部负荷中心的战略至关重要。“十五五”规划概述了重大基础设施目标，而向配电网的转变反映了容纳分布式光伏、风电和电动汽车充电基础设施的需求。
-
-**标签**: `#energy`, `#infrastructure`, `#renewable energy`, `#grid modernization`
-
----
-
-<a id="item-10"></a>
-## [马斯克：特斯拉 AI6 芯片有望创下单晶圆算力纪录](https://www.ithome.com/0/964/051.htm) ⭐️ 7.0/10
-
-埃隆·马斯克宣布，目前处于工程评审阶段的特斯拉下一代 AI6 芯片有望创下单块晶圆可用算力的新纪录，性能将在即将推出的 AI5 基础上翻倍。AI6 将配备 SRAM 和 LPDDR6 内存升级，以避免运算瓶颈。 该芯片对特斯拉的自动驾驶、Optimus 机器人和太空数据中心愿景至关重要，代表了 AI 硬件性能的重大飞跃。创纪录的单晶圆算力可能使特斯拉在 AI 芯片竞赛中获得竞争优势。 AI6 将在近半数的 TRIP 人工智能加速器上使用 SRAM，并采用更快的 LPDDR6 内存，而 AI5 使用 LPDDR5/LPDDR5X。特斯拉正与三星合作，在得克萨斯州新工厂代工，合同金额 165 亿美元，同时还与英特尔和 SpaceX 合作推进 TERAFAB 项目。
-
-rss · ITHome Feed · 6月14日 03:55
-
-**背景**: 特斯拉开发定制 AI 芯片以驱动其全自动驾驶（FSD）系统和其他 AI 应用。当前的 AI4 芯片已用于特斯拉车辆，即将推出的 AI5 计划于 2027 年开始量产。AI6 预计在 2028 年投产，开发周期为九个月。
-
-**标签**: `#Tesla`, `#AI chip`, `#hardware`, `#autonomous driving`, `#semiconductor`
-
----
-
-<a id="item-11"></a>
-## [鸿蒙 OS 7.0 Beta 1：内核快启与音频引擎更新](https://www.ithome.com/0/964/029.htm) ⭐️ 7.0/10
-
-华为于 2026 年 6 月 12 日发布了鸿蒙 OS 7.0 开发者 Beta 1 版，首次引入鸿蒙内核应用快启技术，并对音频引擎进行了重大更新以支持空间音频。 此次更新显著提升了应用启动性能和音频体验，为开发者和用户强化了鸿蒙生态。内核快启技术解决了启动速度与内存开销之间的经典权衡问题，可能使鸿蒙 OS 获得竞争优势。 Beta 版还包括 DevEco CLI 和 DevEco Code AI 编程代理、平行视界 EasyGo 多设备支持以及 DFX 诊断增强。开发工具实现了代码索引效率提升 70%、编译构建效率提升 40%。
+华为在 2026 年 6 月 12 日的 HDC 2026 上发布了 HarmonyOS 7.0 开发者 Beta 1 版，首次引入鸿蒙内核应用快启技术、音频引擎大更新，以及 DevEco Code 等 AI 辅助开发工具。 此次更新显著提升了应用启动性能和内存效率，解决了长期存在的行业难题。增强的音频引擎和 AI 工具将吸引更多开发者加入鸿蒙生态，加速其普及。 内核快启技术声称解决了“性能与内存”的跷跷板难题。DevEco Code 支持代理式开发模式，开发者描述需求后 AI 自动生成代码、构建并测试。Beta 版支持 Mate 80 Pro、Mate X7、Pura 90 Pro Max 等设备。
 
 rss · ITHome Feed · 6月14日 01:57
 
-**背景**: 鸿蒙 OS 是华为专为无缝多设备协作设计的操作系统。内核应用快启技术旨在减少应用冷启动延迟，同时最小化内存占用，这是移动操作系统设计中的常见挑战。
+**背景**: HarmonyOS 是华为专为多设备无缝协作设计的操作系统。内核应用快启技术在系统内核层面优化启动流程，以降低延迟并最小化内存占用。3DGS（三维高斯泼溅）是一种实时 3D 渲染技术，可从照片创建高保真场景。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.ithome.com/0/964/029.htm">华为 HarmonyOS 7.0 Developer Beta 1 更新速览：首创鸿蒙内核应用快...</a></li>
+<li><a href="https://segmentfault.com/a/1190000047853182">HarmonyOS 7.0（API26）Developer Beta1版本更新速览：系统能力与开发...</a></li>
+<li><a href="https://sorabin.com/3dgs-complete-guide/">3DGS 完全指南：重新定义实时三维重建的革命性技术 - 索拉缤</a></li>
+
+</ul>
+</details>
 
 **标签**: `#HarmonyOS`, `#mobile OS`, `#developer tools`, `#system performance`
 
 ---
 
-<a id="item-12"></a>
-## [三星提出海上浮动 AI 数据中心方案，解决电力与冷却难题](https://www.ithome.com/0/963/999.htm) ⭐️ 7.0/10
+<a id="item-10"></a>
+## [三星提出海上浮动 AI 数据中心方案](https://www.ithome.com/0/963/999.htm) ⭐️ 7.0/10
 
-三星重工提出在专门设计的船舶上建造海上浮动 AI 数据中心，并与超微公司（Supermicro）合作测试硬件在海洋环境中的耐久性。该概念旨在解决 AI 基础设施的土地和电力短缺问题。 这可能通过绕过土地和电网限制，为扩展 AI 基础设施开辟新范式，从而加速 AI 发展。同时，它也为航运业通过向科技公司长期租赁开辟了新的收入来源。 该浮动数据中心设计功率为 50 兆瓦，在远海使用液化天然气燃料电池发电，在近海通过海底电缆接入电网。海水将用于冷却，消除淡水消耗。
+三星重工提出在海上建造浮动 AI 数据中心，设计功率 50 兆瓦，采用液化天然气燃料电池供电和海水冷却，并与超微公司合作测试硬件在海洋环境中的耐久性。 这一概念可缓解 AI 基础设施的土地和电力短缺问题，为电网紧张的沿海城市提供可扩展的解决方案，并已吸引 OpenAI 和航运投资者的兴趣。 浮动数据中心将是专门建造的船舶，而非改造旧船，靠近海岸时可通过海底电缆接入电网。三星的设计已获得国际海事监管机构的初步审批。
 
 rss · ITHome Feed · 6月13日 23:43
 
-**背景**: AI 模型训练需要巨大的计算能力，导致高电力消耗和热量产生。传统的陆上数据中心面临电网容量有限、土地稀缺以及冷却系统耗水等挑战。浮动数据中心利用海洋进行冷却，并可部署在能源需求高的沿海城市附近。
+**背景**: AI 模型训练需要巨大的算力和冷却能力，给陆上数据中心带来压力。浮动数据中心利用海洋进行冷却，并使用液化天然气燃料电池提供清洁电力，避免争夺淡水和电网容量。
 
 <details><summary>参考链接</summary>
 <ul>
@@ -265,259 +242,139 @@ rss · ITHome Feed · 6月13日 23:43
 </ul>
 </details>
 
-**标签**: `#AI infrastructure`, `#data centers`, `#Samsung`, `#energy`, `#cooling`
+**标签**: `#AI infrastructure`, `#data center`, `#Samsung`, `#energy`, `#cooling`
+
+---
+
+<a id="item-11"></a>
+## [KPMG 因 AI 幻觉撤回报告](https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/) ⭐️ 7.0/10
+
+KPMG 撤回了其 2025 年 10 月发布的报告《在代理式 AI 时代重新定义卓越》，此前包括 UBS 和 NHS 在内的多个组织否认了报告中归因于他们的说法，GPTZero 揭示了捏造的引用。 这一事件凸显了 AI 生成内容持续存在的可靠性问题，尤其是在大型咨询公司使用时，并强调了严格的人工监督以防止信誉受损的必要性。 该报告声称 UBS、NHS、瑞士联邦铁路和伦敦交通局等组织正在使用 KPMG 的 AI 工具，但所有这些组织都否认了这些说法。AI 检测工具 GPTZero 发现了多处捏造内容，表明该报告是 AI 生成的且未经适当验证。
+
+rss · TechCrunch · 6月13日 20:42
+
+**背景**: AI 幻觉是指 AI 模型基于统计模式生成虚假或虚构信息，通常产生令人信服但不正确的输出。这是大型语言模型中的一个已知挑战，模型可能捏造事实、引用或事件。KPMG 作为四大专业服务公司之一，依赖 AI 生成关于 AI 使用情况的报告，但未能验证输出，导致了此次撤回。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/">KPMG pulls report on AI usage due to apparent hallucinations</a></li>
+<li><a href="https://www.androguider.com/2026/06/kpmgs-ai-report-withdrawal-cautionary.html">KPMG's AI Report Withdrawal: A Cautionary Tale on AI ...</a></li>
+<li><a href="https://judyailab.com/en/posts/ai-news-20260614-kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/">KPMG Withdraws AI Usage Report Amid Suspected Model ...</a></li>
+
+</ul>
+</details>
+
+**标签**: `#AI`, `#hallucinations`, `#KPMG`, `#reliability`, `#consulting`
+
+---
+
+<a id="item-12"></a>
+## [OpenAI 面临州检察长调查](https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/) ⭐️ 7.0/10
+
+多个州的检察长正在对 OpenAI 展开调查，涉及广告政策和健康数据处理等多个方面。 此次调查表明监管机构对领先 AI 公司的审查力度加大，可能影响数据隐私和广告方面的行业实践。 具体涉及的州尚未披露，调查范围广泛，涵盖从广告政策到健康数据处理等多个议题。
+
+rss · TechCrunch · 6月13日 16:47
+
+**背景**: OpenAI 是一家领先的人工智能研究机构，以 ChatGPT 等产品闻名。州检察长有权调查公司是否违反州法律，包括消费者保护和隐私法规。
+
+**标签**: `#OpenAI`, `#regulation`, `#AI`, `#privacy`, `#legal`
 
 ---
 
 <a id="item-13"></a>
-## [Meta 因强制抽调员工组建 AI 团队引发内部不满](https://www.ithome.com/0/963/995.htm) ⭐️ 7.0/10
-
-Meta 强制将数千名员工调入新成立的应用人工智能团队，引发愤怒和抗议。内部事件包括一名员工闯入直播辱骂 AI 高管，以及超过 1600 名员工联名请愿反对为收集 AI 训练数据而监控鼠标和键盘输入。 这揭示了 Meta 在优先投资 AI 时存在的深层文化和士气问题，可能影响生产力和人才留存。强制调岗模式可能为科技公司如何为关键 AI 项目配备人员树立先例，引发伦理和法律问题。 应用人工智能团队成立仅三个月，约有 6500 名工程师和产品经理。员工别无选择，只能加入或离职，许多人将工作描述为“苦役营”，他们编写测试题和编程习题来训练 AI 模型。
-
-rss · ITHome Feed · 6月13日 23:13
-
-**背景**: Meta 一直在大力投资 AI，包括以 143 亿美元收购数据标注公司 Scale AI。CEO 马克·扎克伯格为内部调岗辩护，称 Meta 普通员工的能力高于外包人员。公司还面临一项更广泛的请愿，反对为 AI 训练监控员工输入。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.businessinsider.com/meta-ai-task-force-workers-2026-5">Inside Meta's Effort to Draft 7000 Workers Into Its AI Task Force</a></li>
-<li><a href="https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/">Meta's months-old AI unit is a soul-crushing gulag ... - TechCrunch</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Scale_AI">Scale AI - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**标签**: `#Meta`, `#AI`, `#corporate culture`, `#employee relations`, `#forced transfer`
-
----
-
-<a id="item-14"></a>
-## [州检察长调查 OpenAI 广告与健康数据处理](https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/) ⭐️ 7.0/10
-
-多位州检察长正在调查 OpenAI，重点关注其广告政策和健康数据处理方式。 此次调查可能为 AI 公司的监管树立先例，尤其是在数据隐私和广告实践方面。 具体涉及哪些州尚未披露，调查范围涵盖广告政策和健康数据处理。
-
-rss · TechCrunch · 6月13日 16:47
-
-**背景**: OpenAI 是一家领先的人工智能研究和部署公司，以 ChatGPT 等产品闻名。州检察长通常调查公司可能违反消费者保护或隐私法的行为。
-
-**标签**: `#OpenAI`, `#regulation`, `#privacy`, `#AI ethics`
-
----
-
-<a id="item-15"></a>
-## [FBI 建造仿真小镇用于网络攻击模拟训练](https://techcrunch.com/2026/06/13/the-fbi-built-its-own-replica-small-town-to-simulate-real-world-cyberattacks/) ⭐️ 7.0/10
-
-美国联邦调查局（FBI）在阿拉巴马州亨茨维尔的一栋建筑内建造了一个占地 2.2 万平方英尺的仿真小镇，名为“动态网络攻防训练场”，用于模拟真实世界的网络攻击以培训执法人员。该设施自 2025 年 2 月启用以来，已培训超过 1400 名学员。 该训练场应对了日益严重的网络犯罪威胁——2025 年美国网络犯罪造成的损失创下 209 亿美元新高，同比增长 26%。通过提供真实设备和系统的实操经验，它能让调查人员更好地应对针对关键基础设施的勒索软件攻击等网络威胁。 小镇内设有住宅、酒店、加油站、杂货店、法院、医院和电力公司，所有设备与系统均可正常运行。此外还配备了一个拥有 200 余台实体服务器的数据中心，运行 Windows 和 Linux 系统，以复现调查中常见的企业运维环境。
-
-rss · TechCrunch · 6月13日 11:00
-
-**背景**: FBI 的动态网络攻防训练场是一个在受控环境中模拟网络攻击的专用设施，允许受训人员练习应对勒索软件攻击等可能扰乱医院系统或其他关键服务的事件。培训还涵盖数字取证，包括使用有争议的工具——这些工具利用设备漏洞绕过加密，但不会向苹果、谷歌等制造商披露相关漏洞。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.fbi.gov/video-repository/hqopws26commications.mp4/view">FBI Philadelphia on Safeguarding the Communications Sector</a></li>
-<li><a href="https://www.facebook.com/techcrunch/posts/hidden-inside-a-building-in-alabama-the-fbi-has-created-its-own-small-town-as-a-/1353160406677823/">Hidden inside a building in Alabama, the FBI has created its own small ...</a></li>
-
-</ul>
-</details>
-
-**标签**: `#cybersecurity`, `#FBI`, `#training`, `#simulation`, `#infrastructure`
-
----
-
-<a id="item-16"></a>
 ## [AI 时代留学就业白皮书发布](https://36kr.com/p/3846972367866119?f=rss) ⭐️ 6.0/10
 
-36 氪研究院与新通教育联合发布白皮书，分析 AI 如何重塑中国留学生的留学价值，并提出了面向 2030 年的“CORE”未来胜任力模型。 该白皮书为中国家庭应对教育投资回报率下降和 AI 时代的身份焦虑提供了框架，指导他们选择符合未来趋势的专业和职业路径。 CORE 模型强调四种 AI 难以替代的能力：人机协同、跨文化协作、韧性和共情。报告还根据 AI 自动化风险度和人类护城河深度将专业划分为三个区域。
+36 氪研究院与新通教育联合发布《AI 时代留学就业白皮书》，提出 2030 CORE 未来胜任力模型，并基于十五五规划构建专业价值坐标系。 该白皮书为中国留学生家庭提供了一个框架，以应对 AI 颠覆传统职业路径和技能需求背景下海外教育价值的变迁。 CORE 模型强调人机协同、跨文化协作、韧性和共情作为 AI 难以替代的能力。报告还梳理了十五五规划下的七大黄金赛道，包括 AI+、低空经济、合成生物等。
 
 rss · 36Kr Feed · 6月13日 06:00
 
-**背景**: 传统留学路径依赖学历溢价和信息差，但 AI 正在系统性地替代标准化任务。白皮书基于新通教育三十年数据和 36 氪对 2030 年全球新兴产业集群的前瞻研判。
+**背景**: 该白皮书探讨了 AI 自动化常规任务导致传统留学投资回报率下降的问题。它追溯了中国留学生 30 年来的心理变迁，并提出从向外寻求优势转向构建内在核心能力的转变。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.zgeo.com.cn/news/core-competency-model-ai-overseas-employment">36氪研究院发布CORE未来胜任力模型，指引AI时代留学就业 | 智脑时代 Z...</a></li>
+<li><a href="https://m.36kr.com/p/3846972367866119">36氪研究院 | AI时代留学就业白皮书：中国留学生全球就业趋势与人才价...</a></li>
+
+</ul>
+</details>
 
 **标签**: `#AI`, `#education`, `#employment`, `#trends`
 
 ---
 
-<a id="item-17"></a>
-## [我国首次开展蔬菜纯电农机实地测评](https://36kr.com/newsflashes/3852376072311808?f=rss) ⭐️ 6.0/10
+<a id="item-14"></a>
+## [中国计划到 2030 年建成 15 条特高压直流通道](https://36kr.com/newsflashes/3852345783129352?f=rss) ⭐️ 6.0/10
 
-我国首次开展蔬菜纯电农机实地综合测评，集中对 20 余款新机型进行测试，涵盖耕种管收全流程。 这标志着中国农业电气化迈出重要一步，有望减少碳排放和菜农的运营成本，同时推动国产电动农机技术进步。 本次测评由农业农村部南京农业机械化研究所组织，覆盖耕种管收全流程。
+中国宣布在“十五五”规划期间（2026-2030 年）建设 15 条特高压直流输电通道，配电网投资将占电网总投资的 60%。到 2030 年，电网预计可容纳 9 亿千瓦分布式新能源，并支撑超过 4000 万台电动汽车充电桩。 这一大规模基础设施计划对于将西部清洁能源基地的可再生能源输送至东部负荷中心、支持中国碳中和目标至关重要。对配电网和智能微电网的重视将提高分布式光伏和风电的渗透率，同时为大规模电动汽车普及做好准备。 这 15 条特高压直流通道将源自“十五五”规划部署的十大清洁能源基地。“西电东送”规模将超过 4.2 亿千瓦，到 2030 年新能源发电量占比目标约为 30%。
 
-rss · 36Kr Feed · 6月14日 02:30
+rss · 36Kr Feed · 6月14日 02:45
 
-**背景**: 传统农机依赖柴油发动机，会产生排放和噪音。电动农机使用电池驱动的电机，实现零尾气排放并降低运营成本。中国一直在推广绿色农业，致力于减少农业碳足迹。
+**背景**: 特高压直流输电是一种实现远距离、低损耗电力传输的技术，对于中国将西部可再生能源富集地区的电力送往东部负荷中心的战略至关重要。“西电东送”工程自 21 世纪初以来一直是国家重点工程，最初以煤电为主，现在正转向清洁能源。智能微电网是本地化电网，可独立运行或与大电网并网运行，集成分布式发电、储能和可控负荷。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.monarchtractor.com/">Monarch Tractor: World's First Electric Autonomous Tractor</a></li>
+<li><a href="https://www.36kr.com/newsflashes/3852345783129352">15条特高压直流通道要来了 - 36氪</a></li>
+<li><a href="https://finance.sina.com.cn/stock/wbstock/2026-06-14/doc-inicipwc9268899.shtml">未来5年中国新型电网这样干15条特高压直流通道要来了</a></li>
+<li><a href="https://www.gov.cn/yaowen/liebiao/202410/content_6982382.htm">西电东送：纵横中国的能源“闪送”工程__中国政府网</a></li>
 
 </ul>
 </details>
 
-**标签**: `#agriculture`, `#electrification`, `#machinery`, `#China`
+**标签**: `#energy`, `#infrastructure`, `#China`, `#grid`, `#renewables`
 
 ---
 
-<a id="item-18"></a>
-## [SpaceX 上市揭示“一极盈利、两极亏损”格局](https://36kr.com/newsflashes/3851534097896712?f=rss) ⭐️ 6.0/10
+<a id="item-15"></a>
+## [科学家警告新一轮厄尔尼诺可能成为“超级”事件](https://www.bbc.com/zhongwen/articles/cly0ne5y8x5o/trad?at_medium=RSS&at_campaign=rss) ⭐️ 6.0/10
 
-SpaceX 的 IPO 文件显示，星链去年营收达 113.9 亿美元，占总营收的 61%，而火箭发射业务亏损 6.57 亿美元，xAI 仍是烧钱黑洞。 这一财务快照凸显了星链作为 SpaceX 现金牛的地位，但也强调了星舰和 xAI 所需的巨额投资，可能影响公司估值和 IPO 表现。 SpaceX 的市销率超过 112 倍，远超特斯拉的 15 倍和英伟达的近 20 倍。公司自 2002 年成立以来累计亏损达 413 亿美元。
-
-rss · 36Kr Feed · 6月13日 12:18
-
-**背景**: SpaceX 是埃隆·马斯克创立的私人航天公司，以可重复使用火箭和星链卫星互联网星座闻名。IPO 将允许公众投资者购买股票，但公司财务数据显示其业务板块盈利能力不均。
-
-**标签**: `#SpaceX`, `#business analysis`, `#Starlink`, `#IPO`, `#financials`
-
----
-
-<a id="item-19"></a>
-## [HDC 2026：鸿蒙生态设备达 6600 万，广告主增长 200%](https://36kr.com/newsflashes/3851524018001154?f=rss) ⭐️ 6.0/10
-
-在 HDC 2026 上，华为宣布搭载 HarmonyOS 6 的设备已达 6600 万台，注册开发者达 1100 万，其广告平台鲸鸿动能在 2025 年广告主数量增长 200%。 这一增长表明 HarmonyOS 及其商业化生态被广泛采用，为开发者和合作伙伴通过广告和分发实现可持续收入提供了可行平台。 鲸鸿动能已接入全球超过 10.7 万家第三方媒体，并利用数据科学、全域分发和聚合 SDK 等核心能力推动增长。
-
-rss · 36Kr Feed · 6月13日 11:32
-
-**背景**: HarmonyOS 是华为专为多设备生态设计的操作系统。HDC（华为开发者大会）是华为展示生态进展的年度活动。鲸鸿动能为华为的广告平台，帮助开发者实现应用变现。
-
-**标签**: `#HarmonyOS`, `#ecosystem`, `#advertising`, `#mobile`
-
----
-
-<a id="item-20"></a>
-## [FDA 警告：电子设备需与心脏植入物保持 15 厘米距离](https://www.ithome.com/0/964/032.htm) ⭐️ 6.0/10
-
-美国 FDA 发布安全建议，建议佩戴心血管植入式电子设备（CIED）的人群将智能手机、耳机、智能手表等消费电子产品与植入物保持至少 6 英寸（约 15 厘米）的距离，以避免磁场干扰。 这项建议至关重要，因为现代消费电子产品含有强稀土磁铁，可能触发起搏器和除颤器的磁安全模式，导致危及生命的功能异常。全球数百万依赖这些植入物的患者将受到影响。 磁安全模式在磁场强度达到 10 高斯或以上时触发；相比之下，典型的冰箱磁贴约为 100 高斯。2022 年发表在《循环：心律失常与电生理学》上的一项研究发现，AirPods、iPhone 12 Pro Max、Apple Pencil 和微软 Surface Pen 等设备会干扰 CIED。
-
-rss · ITHome Feed · 6月14日 02:11
-
-**背景**: 心血管植入式电子设备（CIED），如起搏器和植入式心律转复除颤器（ICD），具有磁安全模式，旨在保护患者在接受 MRI 扫描时的安全。当暴露于强磁场时，设备会暂时切换到固定起搏模式，这可能导致其无法检测到危险的心律失常。消费电子产品中体积小但磁性强的稀土磁铁的普及，增加了意外激活的风险。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.biotronik.com/zh-hans/news/blog/five-things-all-cardiac-device-patients-should-know">Five Things All Cardiac Device Patients Should Know | Biotronik</a></li>
-
-</ul>
-</details>
-
-**标签**: `#health`, `#consumer electronics`, `#medical devices`, `#safety`
-
----
-
-<a id="item-21"></a>
-## [DSX v3.2 Beta 01 让 DualSense 手柄在 PC 上支持蓝牙高清触觉反馈](https://www.ithome.com/0/964/025.htm) ⭐️ 6.0/10
-
-付费第三方工具 DSX v3.2 Beta 01 通过模拟虚拟有线设备，使索尼 DualSense 手柄在 PC 上通过蓝牙实现高清触觉反馈。 这一变通方案解决了 DualSense 高级触觉反馈仅限有线连接的长期限制，提升了 DualSense 用户的无线 PC 游戏体验。 该工具基础版售价 7.99 美元，另需 3.99 美元购买 DLC 驱动；它通过将触觉数据视为音频流来绕过 Windows 蓝牙协议栈的限制。
-
-rss · ITHome Feed · 6月14日 01:41
-
-**背景**: DualSense 手柄使用音圈执行器实现精确触觉反馈，但 Windows 蓝牙协议栈无法传输以音频形式发送的高带宽触觉数据。DSX 创建一个虚拟有线 DualSense 设备，并通过自定义软件层无线传输触觉数据。
-
-**标签**: `#gaming`, `#PC`, `#Bluetooth`, `#haptic feedback`, `#DualSense`
-
----
-
-<a id="item-22"></a>
-## [消息称 Steam Machine 评测样机已分发媒体](https://www.ithome.com/0/964/021.htm) ⭐️ 6.0/10
-
-泄露照片显示 Steam Machine 评测样机已分发至媒体，预计 6 月 22 日至 30 日公布售价，评测解禁日期在 6 月 23 日之后。 这表明 Valve 期待已久的游戏主机即将发售，可能通过提供基于 SteamOS 的标准化平台重塑 PC 游戏硬件格局。 泄露照片的真实性存在争议，UploadVR 的 David Heaney 称这些包装盒数月前就已陈列在 Valve 总部。但货运记录显示大量主机和 VR 头显正运往美国，与夏季发布计划吻合。
-
-rss · ITHome Feed · 6月14日 01:24
-
-**背景**: Steam Machine 是 Valve 即将推出的游戏主机，运行 SteamOS，旨在将 PC 游戏带入客厅。由于全球内存短缺，该产品多次跳票，而无需内存的 Steam 手柄已先行发售。
-
-**标签**: `#Steam Machine`, `#Valve`, `#游戏硬件`, `#评测`
-
----
-
-<a id="item-23"></a>
-## [爆料称 MacBook Ultra 将配备触控屏](https://www.ithome.com/0/964/006.htm) ⭐️ 6.0/10
-
-一位爆料者声称，苹果即将推出的 MacBook Ultra 将配备触控屏，该设备预计在 2025 年底至 2026 年初发布。 如果属实，这将是苹果首款触控屏 MacBook，标志着其长期反对触控笔记本电脑立场的重大转变，可能重塑 Mac 产品线和用户体验。 爆料者还指出，macOS 27 Golden Gate 包含触控支持的暗示，例如为 Sidecar 新增直接触控输入以及类似 iPhone 的下拉刷新功能。MacBook Ultra 据传将搭载 M6 Pro/M6 Max 芯片、5G 连接和主动均热板散热系统。
-
-rss · ITHome Feed · 6月14日 00:42
-
-**背景**: 苹果历来抵制为 MacBook 添加触控屏，认为 Mac 体验是为键盘和触控板优化的。但随着 iPad Pro 和混合设备的兴起，压力逐渐增大。MacBook Ultra 预计将是高于 MacBook Pro 的旗舰型号，可能配备 OLED 显示屏。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://forums.macrumors.com/threads/apple-planning-macbook-ultra-with-touchscreen-and-higher-price.2478837/page-3">Apple Planning 'MacBook Ultra' With Touchscreen and Higher Price</a></li>
-
-</ul>
-</details>
-
-**标签**: `#Apple`, `#MacBook`, `#touchscreen`, `#rumor`
-
----
-
-<a id="item-24"></a>
-## [广汽华为联合品牌启境获广州 L3 自动驾驶路测许可](https://www.ithome.com/0/964/003.htm) ⭐️ 6.0/10
-
-2026 年 6 月 13 日，启境汽车 CEO 刘嘉铭宣布，该品牌已获得广州市 L3 级自动驾驶道路测试许可，并已在广州公共道路上展开 L3 自动驾驶预测试。 这标志着广汽与华为联合品牌取得了重要的监管里程碑，使启境成为国内少数获准进行 L3 测试的车企之一，并加速了高级别自动驾驶的商业化进程。 启境首款车型 GT7 已开启预售，起售价 21.99 万元，搭载华为全栈智能化解决方案，包括全新一代鸿蒙座舱 HarmonySpace 和华为乾崑智驾 ADS 5，续航里程最高达 900 公里。
-
-rss · ITHome Feed · 6月14日 00:07
-
-**背景**: L3 级自动驾驶允许车辆在特定条件下完成所有驾驶任务，但驾驶员必须在系统请求时随时接管。在中国，车企在公共道路测试 L3 系统前必须获得特殊的路测许可。启境是广汽集团与华为乾崑联合打造的高端智能新能源汽车品牌。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://autonews.gasgoo.com/articles/news/aistaland-gt7-who-is-this-huawei-shooting-brake-targeting-2056740531001024513">AISTALAND GT7: Who Is This Huawei Shooting Brake Targeting? - Gasgoo</a></li>
-
-</ul>
-</details>
-
-**标签**: `#autonomous driving`, `#L3`, `#GAC`, `#Huawei`, `#electric vehicles`
-
----
-
-<a id="item-25"></a>
-## [苹果申请专利减少无人机集群网络拥堵](https://www.ithome.com/0/964/002.htm) ⭐️ 6.0/10
-
-苹果提交了一份专利申请，提出通过选择性传输数据和基于阈值的报告，减少无人机集群通信中信令开销的三种方法。 该专利表明苹果正在积极研究无人机集群技术，这可能会为未来的无人机应用带来更高效的 5G 网络利用，从而影响物流、监控和配送服务。 该专利描述了三种解决方案：在切换时仅传输小区 ID 而非完整数据日志；根据联系的基站数量设置完整数据上传的阈值；以及使用跨所有频段的统一告警机制来触发一份整合报告。
-
-rss · ITHome Feed · 6月14日 00:07
-
-**背景**: 无人机集群中的无人机频繁向多个基站发送大量数据（如信号强度、质量和波束报告），导致高信令开销和网络拥堵。苹果的专利旨在通过优化数据传输的时间和方式，利用 5G 网络能力来减少这种开销。
-
-**标签**: `#drones`, `#networking`, `#patent`, `#Apple`, `#5G`
-
----
-
-<a id="item-26"></a>
-## [顺丰牵头首个快递电子运单国际标准](https://www.ithome.com/0/963/992.htm) ⭐️ 6.0/10
-
-国际标准化组织（ISO）成立了首个快递服务国际标准化机构（ISO/TC 344/SC2），由顺丰牵头的《快递电子运单》国际标准提案已成功立项并进入起草阶段。 这一里程碑标志着快递服务全球标准化的启动，通过统一电子运单格式和数据，有助于提升跨境物流效率、降低成本，并推动可持续发展。 该电子运单标准将涵盖信息、格式和技术要求，由多国专家组成的工作组共同编制。该提案在 ISO/TC 344/SC2 第一次全体会议上提出，会议有来自 9 个国家和 2 个国际组织的 40 余名专家参加。
-
-rss · ITHome Feed · 6月13日 23:02
-
-**背景**: 电子运单是传统纸质运单的数字化版本，包含发件人、收件人、追踪号等运输信息。由于高效和环保优势，电子运单已在多国广泛使用，但缺乏国际标准导致跨境物流中的兼容性问题。该倡议旨在建立全球公认的框架。
-
-**标签**: `#logistics`, `#standardization`, `#express delivery`, `#international standards`
-
----
-
-<a id="item-27"></a>
-## [科技领袖修正 AI 就业末日论调](https://www.ithome.com/0/963/990.htm) ⭐️ 6.0/10
-
-OpenAI CEO Sam Altman 和微软 AI CEO Mustafa Suleyman 公开承认，此前关于 AI 导致大规模失业的预测过于夸张，Altman 承认自己在白领岗位受影响程度上判断错误。 顶级 AI 领袖的语调转变可能影响公众对 AI 监管和劳动力适应的看法与政策辩论，因为 71% 的美国人认为 AI 发展过快。 Altman 在亲自尝试用 AI 写邮件感到“去人性化”后改变了看法；Suleyman 澄清他此前关于 AI 在 12-18 个月内自动化大多数白领工作的说法指的是子任务，而非整个岗位。
-
-rss · ITHome Feed · 6月13日 15:21
-
-**背景**: 自 2022 年底 ChatGPT 发布以来，许多科技领袖警告 AI 将迅速淘汰数百万白领岗位。但实际就业冲击比预期缓慢，促使他们重新评估这些预测。
-
-**标签**: `#AI`, `#employment`, `#tech industry`, `#OpenAI`, `#Microsoft`
-
----
-
-<a id="item-28"></a>
-## [科学家警告新一轮厄尔尼诺现象可能成为超级事件](https://www.bbc.com/zhongwen/articles/cly0ne5y8x5o/trad?at_medium=RSS&at_campaign=rss) ⭐️ 6.0/10
-
-美国机构宣布热带太平洋目前出现厄尔尼诺现象，近几个月海面温度急剧上升。许多预测显示，这次事件可能形成所谓的“超级”厄尔尼诺现象，甚至可能是有记录以来最强之一。 这一宣布预示着全球可能出现极端高温和破坏性天气模式，影响农业、水资源和公共卫生。潜在的“超级”厄尔尼诺现象放大了这些风险，因此做好准备至关重要。 厄尔尼诺现象的特征是赤道太平洋海洋温度异常升高，从而改变大气环流。当前事件发生在罕见的三年拉尼娜现象之后，且发展迅速，海面温度已超过阈值。
+美国机构宣布热带太平洋目前出现厄尔尼诺现象，近几个月海面温度急剧上升。许多预测显示，这次事件可能形成“超级”厄尔尼诺，甚至可能成为有记录以来最强之一。 强厄尔尼诺会扰乱全球天气模式，导致洪水、干旱和热浪等极端事件，影响农业、水资源和全球经济。此次事件加上持续的全球变暖，可能使全球气温再创新高。 厄尔尼诺现象的特征是赤道太平洋中部和东部海面温度异常升高，通常持续约 12 个月。当前事件预计在 2026 年年中形成，并可能持续到 2027 年。
 
 rss · BBC Chinese · 6月14日 03:12
 
-**背景**: 厄尔尼诺是一种每 2-7 年发生一次的气候模式，涉及热带太平洋中东部变暖。它可能导致某些地区干旱、其他地区洪水，并与全球气温升高相关。“超级”厄尔尼诺指异常强烈、影响广泛的事件。
+**背景**: 厄尔尼诺是一种气候模式，每几年发生一次，当信风减弱时，暖水向东太平洋移动。它与拉尼娜现象相反，后者带来较冷条件。该现象由秘鲁渔民命名，常在圣诞节前后达到高峰。
 
-**标签**: `#climate`, `#El Niño`, `#environment`, `#science`
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://zh.wikipedia.org/zh-hk/聖嬰現象">厄爾尼諾現象 - 維基百科，自由的百科全書</a></li>
+<li><a href="https://www.hk01.com/即時國際/60331229/科學家警告厄爾尼諾現象2026重臨地球-恐天氣劇變-高溫再破紀錄">科學家警告厄爾尼諾現象2026重臨地球 恐天氣劇變 高溫再破紀錄</a></li>
+<li><a href="https://www.master-insight.com/article/48396">超級厄爾尼諾來臨？ | 岑智明 - 灼見名家</a></li>
+
+</ul>
+</details>
+
+**标签**: `#climate`, `#El Niño`, `#environment`, `#global warming`
+
+---
+
+<a id="item-16"></a>
+## [近半数英国女孩一周内看到有害社交媒体内容](https://www.theguardian.com/uk-news/2026/jun/13/half-of-girls-saw-harmful-social-media-content-research-uk) ⭐️ 6.0/10
+
+莫莉·罗斯基金会的研究发现，47%的 13-17 岁女孩和三分之一的青少年在一周内看到了社交媒体上的自杀、自残或饮食失调内容。 这凸显了当前安全措施的失败，并加剧了加强监管的呼声，包括首相斯塔默可能宣布的禁止 16 岁以下青少年使用社交媒体的禁令。 该研究由莫莉·罗斯基金会进行，该基金会是在青少年莫莉·罗素因有害网络内容去世后成立的。研究结果表明，现有的安全措施几乎没有效果。
+
+rss · The Guardian World · 6月13日 22:27
+
+**背景**: 社交媒体平台因其对青少年心理健康的影响而面临越来越多的审查，尤其是涉及宣扬自残、自杀和饮食失调的内容。英国政府一直在考虑《在线安全法案》，以对平台施加更严格的义务。
+
+**标签**: `#social media`, `#online safety`, `#policy`, `#mental health`
+
+---
+
+<a id="item-17"></a>
+## [乌克兰面临爱国者拦截弹严重短缺](https://www.nytimes.com/2026/06/13/world/europe/ukraine-russia-patriot-interceptors.html) ⭐️ 6.0/10
+
+乌克兰的美国制造爱国者防空拦截弹即将耗尽，正紧急请求更多供应以应对俄罗斯弹道导弹攻击。 这种短缺可能使乌克兰城市和关键基础设施暴露于俄罗斯导弹袭击之下，可能改变冲突中防空力量的平衡。 爱国者拦截弹专门用于拦截弹道导弹，这类导弹比巡航导弹或无人机更难击落。乌克兰一直依赖这些系统保护关键资产。
+
+rss · The New York Times World · 6月13日 09:01
+
+**背景**: 弹道导弹防御涉及探测、跟踪和摧毁来袭导弹。雷神公司制造的爱国者系统是最先进的防空系统之一，但其拦截弹成本高昂且供应有限。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Ballistic_missile_defense">Ballistic missile defense</a></li>
+
+</ul>
+</details>
+
+**标签**: `#defense`, `#geopolitics`, `#military technology`, `#Ukraine`, `#Russia`
 
 ---
