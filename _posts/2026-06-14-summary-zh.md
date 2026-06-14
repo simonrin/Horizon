@@ -9,213 +9,215 @@ lang: zh
 
 ---
 
-1. [GLM-5.2：完全开放的前沿 AI 模型发布](#item-1) ⭐️ 9.0/10
-2. [美国 AI 公司 Anthropic 应政府要求暂停最强模型访问](#item-2) ⭐️ 9.0/10
-3. [人口普查局禁止噪声注入保护数据隐私](#item-3) ⭐️ 8.0/10
-4. [macOS 界面动画缺陷被揭露](#item-4) ⭐️ 8.0/10
-5. [在百灵达 DDX3216 上运行 DOS：自制 BIOS](#item-5) ⭐️ 8.0/10
+1. [GLM-5.2：Z.ai 发布完全开放的前沿模型](#item-1) ⭐️ 9.0/10
+2. [Anthropic 应美国政府要求暂停最强 AI 系统访问](#item-2) ⭐️ 9.0/10
+3. [本田思域车载系统漏洞允许通过 USB 执行任意代码](#item-3) ⭐️ 8.0/10
+4. [人口普查局禁止在统计产品中注入噪声](#item-4) ⭐️ 8.0/10
+5. [macOS UI 动画因不完美帧遭批评](#item-5) ⭐️ 8.0/10
 6. [埃博拉疫情扩大，药物试验启动](#item-6) ⭐️ 8.0/10
-7. [Meta 应北京要求撤销 20 亿美元 Manus 收购](#item-7) ⭐️ 8.0/10
-8. [毕马威因 AI 幻觉撤回报告](#item-8) ⭐️ 7.0/10
-9. [州检察长调查 OpenAI 广告与健康数据处理](#item-9) ⭐️ 7.0/10
-10. [FBI 建造模拟小镇进行网络攻击演练](#item-10) ⭐️ 7.0/10
+7. [Meta 应北京要求撤销 20 亿美元 Manus 交易](#item-7) ⭐️ 8.0/10
+8. [KPMG 因 AI 幻觉撤回报告](#item-8) ⭐️ 8.0/10
+9. [OpenAI 遭多州总检察长调查](#item-9) ⭐️ 7.0/10
+10. [FBI 建造模拟小镇用于网络攻击演练](#item-10) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [GLM-5.2：完全开放的前沿 AI 模型发布](https://twitter.com/jietang/status/2065784751345287314) ⭐️ 9.0/10
+## [GLM-5.2：Z.ai 发布完全开放的前沿模型](https://twitter.com/jietang/status/2065784751345287314) ⭐️ 9.0/10
 
-Z.ai 发布了 GLM-5.2，一个完全开放的前沿 AI 模型，发布时间恰逢美国政府限制其他前沿模型（如 Fable）的访问。 此次发布挑战了美国主导的 AI 模型限制，推动开放科学和全球 AGI 访问，可能将 AI 开发的平衡转向开放权重模型。 该模型以宽松许可证发布，发布时间（中国时间下午 5:21）与美国政府致信 Anthropic 禁止 Fable 的时间一致，凸显地缘政治紧张局势。
+2026 年 6 月 13 日，Z.ai 发布了 GLM-5.2，这是一个完全开放的前沿模型，拥有 100 万 token 的上下文窗口，并以 MIT 许可证提供。该发布正值美国对其他前沿模型实施限制之际，使 GLM-5.2 成为可自由访问的替代方案。 此次发布挑战了美国主导的 AI 模型限制，促进了开放科学和全球对前沿 AI 的访问。通过以宽松许可证向全球研究人员和开发者提供先进模型，可能加速 AGI 的发展。 GLM-5.2 具有 100 万 token 的上下文窗口、两个新的思考努力级别，并针对编码和长时间运行的智能体任务进行了优化。其开放权重承诺以 MIT 许可证发布，使其成为许可最宽松的前沿模型之一。
 
 hackernews · aloknnikhil · 6月13日 16:18 · [社区讨论](https://news.ycombinator.com/item?id=48518684)
 
-**背景**: 前沿 AI 模型是最先进的通用 AI 模型。Z.ai（原智谱 AI）是一家中国 AI 公司，开发 GLM 系列模型。美国最近以国家安全为由限制某些前沿模型的访问，引发了关于开放科学的讨论。
+**背景**: 前沿模型是最先进的通用 AI 模型，通常需要巨大的计算资源进行训练。Z.ai（前身为智谱 AI）是一家中国 AI 公司，自 2025 年 7 月以来一直以开源许可证发布其 GLM 模型，将自己定位为 AI 开放科学的倡导者。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://z.ai/blog/glm-4.5">GLM-4.5: Reasoning, Coding, and Agentic Abililties</a></li>
+<li><a href="https://www.buildfastwithai.com/blogs/glm-5-2-review-2026">GLM-5.2 Review 2026: Z.ai's 1M-Context AI Model</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Z.ai">Z.ai - Wikipedia</a></li>
 <li><a href="https://www.nvidia.com/en-us/glossary/frontier-models/">What Are Frontier AI Models and How They Work | NVIDIA Glossary</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区普遍赞扬此次发布，并将其与美国审查制度对比。评论者注意到战略性的发布时间，并强调开放权重模型不受地缘政治限制，一些人称这是 AI 可访问性的转折点。
+**社区讨论**: 社区普遍赞扬此次发布，许多人将其与美国对 Fable 等模型的限制进行对比。评论者强调了发布时机——与美国政府行动同时——并对中国实验室的开放性表示感谢，称这是全球 AI 可及性的战略举措。
 
-**标签**: `#AI`, `#open source`, `#frontier models`, `#geopolitics`, `#GLM`
+**标签**: `#AI`, `#open source`, `#GLM`, `#frontier models`, `#geopolitics`
 
 ---
 
 <a id="item-2"></a>
-## [美国 AI 公司 Anthropic 应政府要求暂停最强模型访问](https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85/20260613-%E7%BE%8E%E5%9B%BD%E9%A1%B6%E7%BA%A7%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%85%AC%E5%8F%B8anthropic%E5%BA%94%E6%94%BF%E5%BA%9C%E8%A6%81%E6%B1%82%E6%9A%82%E5%81%9C%E6%9C%80%E5%BC%BA%E5%A4%A7ai%E7%B3%BB%E7%BB%9F%E8%AE%BF%E9%97%AE) ⭐️ 9.0/10
+## [Anthropic 应美国政府要求暂停最强 AI 系统访问](https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85/20260613-%E7%BE%8E%E5%9B%BD%E9%A1%B6%E7%BA%A7%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%85%AC%E5%8F%B8anthropic%E5%BA%94%E6%94%BF%E5%BA%9C%E8%A6%81%E6%B1%82%E6%9A%82%E5%81%9C%E6%9C%80%E5%BC%BA%E5%A4%A7ai%E7%B3%BB%E7%BB%9F%E8%AE%BF%E9%97%AE) ⭐️ 9.0/10
 
-美国领先 AI 公司 Anthropic 在发布其最强大 AI 模型仅三天后，应美国政府以国家安全风险为由的要求，暂停了这些模型的访问权限。 这一史无前例的政府干预标志着 AI 治理的重大转变，表明国家安全关切可以凌驾于先进 AI 系统的商业发布决策之上。 涉事模型据称为'Fable'和'Opus 4.8'，其中 Fable 经过训练以抵抗越狱尝试。该决定是在亚马逊 CEO 与美国官员讨论后做出的，亚马逊是 Anthropic 的主要投资者。
+美国顶级 AI 公司 Anthropic 在发布其最强 AI 模型仅三天后，应政府以国家安全风险为由提出的史无前例的要求，切断了对这些模型的访问。 这标志着 AI 治理的重大转变，政府直接干预了先进 AI 系统的部署。它为国家安全关切如何限制 AI 能力开创了先例，并可能重塑 AI 公司与监管机构之间的关系。 据报道，这些模型属于 Anthropic 的'Fable'系列，政府要求是由亚马逊 CEO 与美国官员的讨论引发的。引发担忧的具体能力尚未公开披露。
 
 rss · RFI Chinese · 6月13日 13:23
 
-**背景**: Anthropic 是一家由前 OpenAI 员工创立的专注于 AI 安全的公司，以开发 Claude 系列大语言模型而闻名。美国政府日益担忧强大 AI 系统被外国对手滥用的可能性，从而采取了这一前所未有的行动。
+**背景**: Anthropic 是一家由前 OpenAI 员工创立的、专注于 AI 安全的公司，以其 Claude 系列大语言模型而闻名。该公司强调负责任的 AI 开发，并与亚马逊有合作关系。这一事件凸显了 AI 快速发展与政府监管之间日益紧张的局势。
 
 <details><summary>参考链接</summary>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Anthropic">Anthropic - Wikipedia</a></li>
 <li><a href="https://www.anthropic.com/">Home \ Anthropic</a></li>
+<li><a href="https://www.brennancenter.org/our-work/analysis-opinion/narrowing-national-security-exception-federal-ai-guardrails-0">Narrowing the National Security Exception to Federal AI ...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区评论对政府为何专门针对 Anthropic 表示困惑，因为所有大语言模型都可能被越狱。一些人推测亚马逊的参与可能影响了这一决定，而另一些人则质疑这些模型是否超过了参数数量或基准测试结果等特定阈值。
+**社区讨论**: 社区评论对 Anthropic 为何向政府报告越狱漏洞表示困惑，因为所有大语言模型都存在此类问题。一些人推测'Fable'模型可能在某些能力上越过了触发国家安全关切的阈值，而另一些人则指出亚马逊的参与是一个潜在因素。
 
-**标签**: `#AI safety`, `#Anthropic`, `#government regulation`, `#national security`, `#AI policy`
+**标签**: `#AI safety`, `#Anthropic`, `#government regulation`, `#national security`, `#AI governance`
 
 ---
 
 <a id="item-3"></a>
-## [人口普查局禁止噪声注入保护数据隐私](https://desfontain.es/blog/banning-noise.html) ⭐️ 8.0/10
+## [本田思域车载系统漏洞允许通过 USB 执行任意代码](https://juniperspring.org/posts/honda-evil-valet/) ⭐️ 8.0/10
 
-美国人口普查局根据商务部命令，禁止在其统计产品中使用噪声注入这一关键的差分隐私技术。 这一政策变化削弱了人口普查数据的隐私保护，可能导致个人身份被重新识别，并侵蚀公众对政府数据收集的信任。 噪声注入通过向数据添加随机噪声来防止个人记录被重建；此次禁令出台前，已有担忧认为强大势力已在利用此前普查的汇总数据。
+安全研究人员发现，第十代本田思域车载系统的软件更新使用了公开的 AOSP 测试密钥进行签名，从而允许通过前置 USB 端口执行任意代码，无需 root 权限。 该漏洞影响数百万辆本田思域，暴露了汽车安全中的严重缺陷——通过 USB 端口的物理访问即可完全攻破信息娱乐系统，可能危及车辆安全与隐私。 该车载系统运行 Android 4.2.2，并使用 AOSP 测试密钥签名的恢复包，该密钥公开可用。该漏洞利用无需 root 或 su 权限，研究人员已在 2021 款思域上完整演示。
 
-hackernews · nl · 6月13日 13:54 · [社区讨论](https://news.ycombinator.com/item?id=48517377)
+hackernews · librick · 6月14日 00:49 · [社区讨论](https://news.ycombinator.com/item?id=48523080)
 
-**背景**: 差分隐私是一种数学框架，允许共享汇总统计数据的同时限制个人信息的泄露。噪声注入是一种常见实现方式，通过向查询结果添加校准的随机性来保护隐私。人口普查局曾在 2020 年人口普查中应用这些技术以保护受访者机密。
+**背景**: AOSP 测试密钥是 Android 开源项目中用于开发和测试的默认加密密钥。商用设备应替换为自定义发布密钥以防止未授权代码执行。本田未能这样做，导致任何拥有物理 USB 访问权限的人都可以刷入自定义包。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.npr.org/2026/06/12/nx-s1-5855734/census-bureau-data-differential-privacy">Trump privacy restrictions may reduce Census Bureau data - NPR</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Differential_privacy">Differential privacy - Wikipedia</a></li>
-<li><a href="https://www.census.gov/programs-surveys/decennial-census/disclosure-avoidance.2020.html">Decennial Census of Population and Housing Disclosure Avoidance</a></li>
+<li><a href="https://github.com/wfairclough/android_aosp_keys">GitHub - wfairclough/android_aosp_keys: The platform keys ...</a></li>
+<li><a href="https://aospinsider.com/courses/aosp-course-1/43-platform-keys-release-keys/">Platform Keys & Release Keys - AOSP Foundations | AOSPInsider</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Arbitrary_code_execution">Arbitrary code execution - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者表达了强烈担忧，有人指出对人口普查数据收集的信任本已不高，禁令可能助长敏感数据的滥用。另一些人则认为破坏数据收集基础设施是一个错误，因为细粒度数据有助于良好治理。
+**社区讨论**: 社区对该发现表示赞赏，有评论者指出现代汽车的车载系统也存在类似问题，其使用的 RSA 密钥可通过搜索'RSA key'找到。另有用户询问这是否能让车载系统运行 LineageOS。
 
-**标签**: `#privacy`, `#census`, `#differential privacy`, `#data policy`, `#government`
+**标签**: `#automotive security`, `#embedded systems`, `#Android`, `#vulnerability`, `#Honda`
 
 ---
 
 <a id="item-4"></a>
-## [macOS 界面动画缺陷被揭露](https://tonsky.me/blog/every-frame-perfect/) ⭐️ 8.0/10
+## [人口普查局禁止在统计产品中注入噪声](https://desfontain.es/blog/banning-noise.html) ⭐️ 8.0/10
 
-一篇题为《每一帧都完美》的技术文章详细批评了 macOS 的界面动画，指出在过渡过程中存在单帧视觉不一致或破损的帧完美问题。 这篇批评挑战了苹果的设计理念，可能推动 macOS 提升动画质量，影响用户体验以及开发者对流畅、一致界面动效的期望。 文章通过逐帧分析 macOS 动画（例如窗口调整大小、对话框过渡）表明，许多单帧在孤立时视觉上“错误”，即使整体动画感觉可以接受。
+美国人口普查局已禁止在其统计产品中使用噪声注入（包括差分隐私），推翻了 2020 年人口普查中采用的一项关键隐私保护措施。 这一政策变化引发了对个人人口普查数据隐私的严重担忧，因为噪声注入是防止重建攻击（可能重新识别受访者）的主要防御手段。 该禁令专门针对差分隐私和其他基于噪声的披露避免技术，可能使恶意行为者更容易从发布的汇总统计数据中重建个人记录。
 
-hackernews · ravenical · 6月13日 11:40 · [社区讨论](https://news.ycombinator.com/item?id=48516251)
+hackernews · nl · 6月13日 13:54 · [社区讨论](https://news.ycombinator.com/item?id=48517377)
 
-**背景**: 操作系统中的界面动画旨在提供视觉连续性和反馈。帧完美动画意味着每一帧渲染都应在视觉上合理，但实际上，由于时序或渲染限制，某些帧可能看起来像伪影。
+**背景**: 差分隐私是一种数学框架，通过向统计输出中添加精心校准的噪声来防止个人身份识别。人口普查局首次将其应用于 2020 年十年一次的人口普查以保护受访者隐私，但批评者认为它降低了用于选区重划等用途的数据准确性。该禁令遵循了一项优先考虑数据效用而非隐私保护的政治决策。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://news.ycombinator.com/item?id=48516251">Every Frame Perfect - Hacker News</a></li>
+<li><a href="https://desfontain.es/blog/banning-noise.html">Banning noise will be a disaster for statistical data products - Ted is writing things</a></li>
+<li><a href="https://www.science.org/doi/10.1126/sciadv.abk3283">The use of differential privacy for census data and its impact on redistricting: The case of the 2020 U.S. Census | Science Advances</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Differential_privacy">Differential privacy - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论意见不一：一些人同意批评，指出近期 macOS 版本出现倒退，而另一些人则认为不完美的帧在感知上可以接受，且文章缺乏建设性替代方案。少数人质疑是否所有界面过渡都需要动画。
+**社区讨论**: 评论者表达了沮丧，一位普查员指出社区信任度本已很低，取消隐私保护将进一步削弱公众信心。另一个人认为，处理精细数据的良好机构为美国的成功做出了贡献，而第三个人强调差分隐私对于防止诈骗和欺诈是绝对必要的。
 
-**标签**: `#UI/UX`, `#animation`, `#macOS`, `#human-computer interaction`, `#software engineering`
+**标签**: `#privacy`, `#census`, `#data policy`, `#differential privacy`, `#government`
 
 ---
 
 <a id="item-5"></a>
-## [在百灵达 DDX3216 上运行 DOS：自制 BIOS](https://chrisdevblog.com/2026/06/08/running-dos-on-behringers-ddx3216-using-a-diy-x86-bios/) ⭐️ 8.0/10
+## [macOS UI 动画因不完美帧遭批评](https://tonsky.me/blog/every-frame-perfect/) ⭐️ 8.0/10
 
-一位开发者逆向工程了百灵达 DDX3216 调音台，并从零构建了一个自定义 x86 BIOS，成功在该设备上运行 DOS。 该项目展示了深厚的硬件破解技能，并在嵌入式 x86 硬件上复兴了复古计算，激励了类似的逆向工程尝试。 自定义 BIOS 包含一个借助 AI 生成的字体，开发者使用汇编包装器访问屏幕内存，但社区建议使用 C 语言的远指针。
+Nikita Prokopov 发表了一篇详细博文，批评 macOS 的 UI 动画，认为即使是单帧错位等微小视觉瑕疵也会降低用户体验。 这篇批评挑战了“微小动画瑕疵不可察觉”的常见假设，可能影响操作系统和应用程序的 UI/UX 设计标准。 文章提供了 macOS Sonoma 中的大量截图示例，展示了过渡期间元素错位、动画时序不一致等问题。
 
-hackernews · rasz · 6月13日 18:32 · [社区讨论](https://news.ycombinator.com/item?id=48520080)
+hackernews · ravenical · 6月13日 11:40 · [社区讨论](https://news.ycombinator.com/item?id=48516251)
 
-**背景**: 百灵达 DDX3216 是一款数字调音台，内置 x86 处理器。BIOS（基本输入输出系统）是初始化硬件并加载操作系统的固件。从零编写自定义 BIOS 是一项复杂的底层编程任务。
+**背景**: UI 动画用于提供视觉反馈和平滑过渡，但由于性能限制和渲染管线，每帧都实现像素完美渲染具有挑战性。作者认为，即使是单帧错误也会被潜意识察觉，降低感知质量。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://stackoverflow.com/questions/10890048/writing-my-own-bios">Writing my own BIOS - Stack Overflow</a></li>
-<li><a href="https://www.alanfoster.me/posts/writing-a-bootloader/">Writing a simple x86 BIOS bootloader | alanfoster.me</a></li>
-<li><a href="https://medium.com/@sumeyyaaktas/part-1-writing-a-custom-x86-bootloader-with-ehci-support-from-scratch-43cb7a5b736d">Writing a 32-bit x86 Bootloader From Scratch | by Sumeyya Aktas - Medium</a></li>
+**社区讨论**: 评论意见不一：一些人同意示例显示了真实问题，而另一些人则认为运动感知与静态分析不同，完美帧可能并非良好 UX 所必需。还有人质疑动画的必要性。
 
-</ul>
-</details>
-
-**社区讨论**: 评论者称赞该项目的创新性，并提供了技术建议，例如在 C 中使用远指针代替汇编包装器。一些人提到了 DOS 兼容机的历史背景，并引用了百灵达 X32 调音台的相关项目。
-
-**标签**: `#reverse engineering`, `#BIOS`, `#retrocomputing`, `#embedded systems`, `#x86`
+**标签**: `#UI/UX`, `#animation`, `#macOS`, `#software engineering`
 
 ---
 
 <a id="item-6"></a>
 ## [埃博拉疫情扩大，药物试验启动](https://www.nytimes.com/2026/06/12/health/ebola-treatment-bundibugyo-virus.html) ⭐️ 8.0/10
 
-科学家们正在启动针对当前埃博拉疫情病毒的几种药物的临床试验，这些药物在初步研究中已显示出潜力。 这至关重要，因为疫情正在扩大，有效的治疗可以挽救生命并帮助控制病毒传播。 试验涉及多种药物，但具体药物名称和试验地点尚未公布。
+随着埃博拉疫情扩大，针对本迪布焦病毒的数种有前景药物的临床试验正在启动。 这很重要，因为本迪布焦病毒已导致多次疫情且尚无获批疗法，成功的试验可能挽救生命并遏制当前疫情。 本迪布焦病毒是一种与扎伊尔埃博拉病毒密切相关的埃博拉病毒物种，于 2007 年在乌干达首次发现，并导致了 2007 年、2012 年和 2026 年的疫情。
 
 rss · The New York Times World · 6月13日 19:11
 
-**背景**: 埃博拉是一种严重且常致命的病毒性疾病。当前疫情由本迪布焦病毒引起，这是几种埃博拉病毒之一。以往的疫情通过公共卫生措施得到控制，但针对这一特定毒株尚无获批的治疗方法。
+**背景**: 埃博拉病是一种高死亡率的严重病毒性出血热。本迪布焦病毒是导致人类疾病的几种埃博拉病毒之一。目前尚无针对本迪布焦病毒病的获批疗法，尽管针对扎伊尔埃博拉病毒等其他埃博拉病毒已有疫苗和疗法。
 
-**标签**: `#Ebola`, `#public health`, `#clinical trials`, `#virology`
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Bundibugyo_virus">Bundibugyo virus</a></li>
+
+</ul>
+</details>
+
+**标签**: `#Ebola`, `#public health`, `#clinical trials`, `#virology`, `#outbreak`
 
 ---
 
 <a id="item-7"></a>
-## [Meta 应北京要求撤销 20 亿美元 Manus 收购](https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/) ⭐️ 8.0/10
+## [Meta 应北京要求撤销 20 亿美元 Manus 交易](https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/) ⭐️ 8.0/10
 
-据报道，Meta 已开始撤销其对中国 AI 初创公司 Manus 的 20 亿美元收购，此前北京要求该交易逆转。 这标志着外国政府迫使科技巨头撤销已完成收购的罕见案例，凸显了地缘政治紧张局势下跨境科技交易中不断升级的监管风险。 据报道，Manus 创始人正在探索筹集 10 亿美元以回购 AI 业务，中国商务部正在审查该交易是否存在潜在的出口管制违规行为。
+Meta 已开始撤销对 AI 初创公司 Manus 的 20 亿美元收购，此前中国当局在 2026 年 4 月下令逆转该交易。 这标志着罕见的已完成科技收购因政府干预而被撤销，凸显了 AI 领域日益加剧的地缘政治紧张局势以及跨境并购的风险。 Meta 于 2026 年 6 月完成了运营拆分，阻止 Manus 员工访问 Meta 内部系统，并命令员工停止在内部项目中使用 Manus 工具。
 
 rss · TechCrunch · 6月14日 00:03
 
-**背景**: Manus 是一家中国创立的 AI 初创公司，Meta 以 20 亿美元收购。该交易因潜在的出口管制违规而受到中国商务部的审查，导致 Meta 史无前例地被要求撤销收购。
+**背景**: Meta 于 2025 年 12 月以 20 亿美元收购了总部位于新加坡的通用 AI 智能体开发商 Manus。该交易因 Manus 有中国背景而面临中国商务部关于潜在出口管制违规的审查。北京方面撤销交易的决定反映了对涉及国家安全的 AI 技术日益加强的监管控制。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/">Meta reportedly moves to unwind $2B Manus deal after Beijing's demand</a></li>
-<li><a href="https://finance.yahoo.com/markets/stocks/articles/metas-2-billion-manus-deal-134316448.html">Meta's $2 Billion Manus Deal Faces Beijing-Driven Reversal</a></li>
-<li><a href="https://lwvgeauga.org/first-dry/Meta-Reportedly-Begins-Unwinding-2-Billion-Manus-Acquisition-Under-Beijings-Orders-32-1734">Meta Reportedly Begins Unwinding $2 Billion Manus Acquisition Under ...</a></li>
+<li><a href="https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/">Meta reportedly moves to unwind $2B Manus deal after Beijing ...</a></li>
+<li><a href="https://capwolf.com/meta-unwinds-2-billion-ai-deal-with-manus-under-beijing-pressure/">Meta Unwinds $2 Billion AI Deal With Manus Under Beijing Pressure</a></li>
+<li><a href="https://letsdatascience.com/news/meta-dismantles-manus-deal-after-beijing-order-f8699dce">Meta Dismantles Manus Deal After Beijing Order | Let's Data ...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Meta`, `#acquisition`, `#regulation`, `#geopolitics`, `#tech industry`
+**标签**: `#Meta`, `#acquisition`, `#regulation`, `#geopolitics`, `#tech`
 
 ---
 
 <a id="item-8"></a>
-## [毕马威因 AI 幻觉撤回报告](https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/) ⭐️ 7.0/10
+## [KPMG 因 AI 幻觉撤回报告](https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/) ⭐️ 8.0/10
 
-据 TechCrunch 2026 年 6 月 13 日报道，大型咨询公司毕马威（KPMG）在发现一份关于 AI 使用情况的报告包含 AI 生成的幻觉内容后，撤回了该报告。 这一事件凸显了 AI 在可靠性方面的持续问题，尤其是在信任至关重要的企业环境中，并可能削弱对知名公司 AI 生成内容的信心。 该报告本身是关于 AI 使用情况的，因此出现幻觉具有讽刺意味；毕马威尚未披露使用了哪个 AI 模型以及发现了哪些具体不准确之处。
+KPMG 撤回了题为《在代理式 AI 时代重新定义卓越》的报告，原因是多家组织质疑报告中关于其 AI 使用情况的说法，这些说法被发现是由 AI 幻觉编造的。 这一事件凸显了在专业咨询中依赖 AI 生成内容的重大风险，可能削弱对 AI 工具以及未经严格人工审核就使用这些工具的公司的信任。 该报告于 2025 年 10 月发布，包含关于公司 AI 采用情况的虚假信息，导致其在 2026 年 6 月被撤回。KPMG 未透露该报告是完全由 AI 生成还是部分辅助生成。
 
 rss · TechCrunch · 6月13日 20:42
 
-**背景**: AI 幻觉是指大型语言模型（LLM）生成看似自信但实则虚假或无意义的信息。这是 AI 领域已知的挑战，通常源于模型进行模式匹配而缺乏真正理解。术语“幻觉”用于描述此类输出，它可能误导用户并削弱对 AI 系统的信任。
+**背景**: AI 幻觉是指大型语言模型生成听起来合理但事实错误的信息。这是生成式 AI 的一个已知局限，尤其是在用于研究报告等权威内容时，可能产生令人信服的虚假信息。
 
 <details><summary>参考链接</summary>
 <ul>
+<li><a href="https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/">KPMG pulls report on AI usage due to apparent hallucinations</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)">Hallucination (artificial intelligence) - Wikipedia</a></li>
-<li><a href="https://www.ibm.com/think/topics/ai-hallucinations">What Are AI Hallucinations? - IBM</a></li>
+<li><a href="https://www.ibm.com/think/topics/ai-hallucinations">What are AI hallucinations? - IBM</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI`, `#hallucination`, `#enterprise`, `#reliability`, `#KPMG`
+**标签**: `#AI`, `#hallucinations`, `#KPMG`, `#reliability`, `#consulting`
 
 ---
 
 <a id="item-9"></a>
-## [州检察长调查 OpenAI 广告与健康数据处理](https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/) ⭐️ 7.0/10
+## [OpenAI 遭多州总检察长调查](https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/) ⭐️ 7.0/10
 
-多位州检察长已对 OpenAI 展开调查，重点关注其广告政策和健康数据处理方式，但具体涉及哪些州尚未披露。 此次调查标志着对 AI 公司的监管审查升级，可能促使整个行业在数据隐私和广告透明度方面面临更严格的合规要求。 调查涵盖广泛问题，包括 OpenAI 的广告政策及其健康数据处理方式，但具体州份和详细指控尚未公开。
+多州总检察长正在对 OpenAI 展开调查，涉及广告政策和健康数据处理等多个方面。 此次调查表明领先 AI 公司正面临更严格的监管审查，可能重塑数据隐私和广告方面的行业实践。 具体涉及哪些州尚未披露，调查范围涵盖从广告政策到健康数据处理的广泛议题。
 
 rss · TechCrunch · 6月13日 16:47
 
-**背景**: OpenAI 是 ChatGPT 的开发者，其数据实践和商业运营正面临日益严格的审查。州检察长通常调查公司是否存在违反消费者保护和隐私法的行为。此次调查加剧了 AI 公司面临的监管挑战。
+**背景**: OpenAI 是一家领先的人工智能研究机构，以开发 GPT-4 等模型而闻名。州总检察长有权调查公司是否违反州法律，包括消费者保护和隐私法规。
 
-**标签**: `#OpenAI`, `#regulation`, `#privacy`, `#AI governance`
+**标签**: `#OpenAI`, `#regulation`, `#AI ethics`, `#privacy`
 
 ---
 
 <a id="item-10"></a>
-## [FBI 建造模拟小镇进行网络攻击演练](https://techcrunch.com/2026/06/13/the-fbi-built-its-own-replica-small-town-to-simulate-real-world-cyberattacks/) ⭐️ 7.0/10
+## [FBI 建造模拟小镇用于网络攻击演练](https://techcrunch.com/2026/06/13/the-fbi-built-its-own-replica-small-town-to-simulate-real-world-cyberattacks/) ⭐️ 7.0/10
 
-FBI 在阿拉巴马州一栋建筑内建造了一个模拟小镇，作为专用网络训练场，用于模拟真实世界的网络攻击。 这一创新训练设施提供动手操作的逼真网络攻击场景，能更好地让特工为复杂威胁做好准备，有望提升执法部门的网络安全准备水平。 这个模拟小镇隐藏在一栋建筑内，旨在模拟多种网络攻击场景，但有关基础设施的具体技术细节尚未披露。
+FBI 在阿拉巴马州一栋建筑内建造了一个模拟小镇，作为专门训练场地，用于模拟真实世界的网络攻击。 这一创新训练设施使 FBI 能够进行逼真的网络攻击模拟，有望提升网络安全培训和响应策略的有效性。 这个模拟小镇隐藏在一栋建筑内，旨在模仿真实小镇环境，提供沉浸式网络训练演习。
 
 rss · TechCrunch · 6月13日 11:00
 
-**背景**: 网络安全培训通常依赖数字模拟或桌面推演，但物理模拟环境能提供更沉浸和逼真的演练。FBI 的做法与其他组织的类似努力相呼应，例如微软的攻击模拟培训和 HENSOLDT 的网络模拟中心，它们提供可定制的攻击场景用于防御训练。
+**背景**: 网络安全培训通常依赖虚拟模拟或桌面推演，可能缺乏真实场景的物理和环境真实感。通过建造实体模拟小镇，FBI 可以将物理基础设施和人际互动等元素融入网络攻击演练中。
 
 **标签**: `#cybersecurity`, `#FBI`, `#training`, `#simulation`
 
