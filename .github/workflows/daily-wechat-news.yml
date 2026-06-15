@@ -69,7 +69,6 @@ jobs:
           start_utc = start_local.astimezone(timezone.utc)
 
           query = urllib.parse.urlencode({
-              "event": "schedule",
               "status": "success",
               "per_page": "30",
               "created": f">={start_utc.isoformat().replace('+00:00', 'Z')}",
@@ -90,6 +89,7 @@ jobs:
           previous_success = [
               run for run in payload.get("workflow_runs", [])
               if int(run.get("id", 0)) != current_run_id
+              and run.get("conclusion") == "success"
           ]
           skip = bool(previous_success)
           print(f"skip={str(skip).lower()}")
