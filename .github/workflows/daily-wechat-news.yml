@@ -1,12 +1,6 @@
 name: Daily Email News
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - ".github/workflows/daily-wechat-news.yml"
-      - "scripts/send_email_summary.py"
-      - "data/config.wechat-news.example.json"
   schedule:
     # 08:23 Asia/Shanghai every day. Avoid GitHub's busy top-of-hour scheduler window.
     - cron: "23 0 * * *"
