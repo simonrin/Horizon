@@ -2,10 +2,8 @@ name: Daily Email News
 
 on:
   schedule:
-    # 08:23 Asia/Shanghai every day. Avoid GitHub's busy top-of-hour scheduler window.
-    - cron: "23 0 * * *"
-    # 12:23 Asia/Shanghai backup. It skips automatically if today's scheduled email already succeeded.
-    - cron: "23 4 * * *"
+    # 08:23 Asia/Shanghai every Sunday. Avoid GitHub's busy top-of-hour scheduler window.
+    - cron: "23 0 * * 0"
   workflow_dispatch:
 
 permissions:
